@@ -3,746 +3,927 @@
     "gray": {
       "1": {
         "$type": "color",
-        "$value": "#111111"
+        "$value": "#111111",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "#191919"
+        "$value": "#191919",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "#222222"
+        "$value": "#222222",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "#2a2a2a"
+        "$value": "#2a2a2a",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "#313131"
+        "$value": "#313131",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "#3a3a3a"
+        "$value": "#3a3a3a",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "#484848"
+        "$value": "#484848",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "#606060"
+        "$value": "#606060",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "#6e6e6e"
+        "$value": "#6e6e6e",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "#7b7b7b"
+        "$value": "#7b7b7b",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "#b4b4b4"
+        "$value": "#b4b4b4",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "#eeeeee"
+        "$value": "#eeeeee",
+        "$description": "High-contrast text"
       },
       "a6": {
         "$type": "color",
-        "$value": "#ffffff2b"
+        "$value": "#ffffff2b",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#ffffff73"
+        "$value": "#ffffff73",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#ffffff12"
+        "$value": "#ffffff12",
+        "$description": "UI element background (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#ffffffed"
+        "$value": "#ffffffed",
+        "$description": "High-contrast text (alpha)"
       },
       "a11": {
         "$type": "color",
-        "$value": "#ffffffb0"
+        "$value": "#ffffffb0",
+        "$description": "Low-contrast text (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#ffffff54"
+        "$value": "#ffffff54",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#ffffff3b"
+        "$value": "#ffffff3b",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#ffffff21"
+        "$value": "#ffffff21",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#ffffff0a"
+        "$value": "#ffffff0a",
+        "$description": "Subtle background (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#ffffff1c"
+        "$value": "#ffffff1c",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#ffffff63"
+        "$value": "#ffffff63",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a1": {
         "$type": "color",
-        "$value": "#00000000"
+        "$value": "#00000000",
+        "$description": "App background (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "#202020"
+        "$value": "#202020",
+        "$description": "Contrast color for the scale"
       }
     },
     "sand": {
       "1": {
         "$type": "color",
-        "$value": "#111110"
+        "$value": "#111110",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "#191918"
+        "$value": "#191918",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "#222221"
+        "$value": "#222221",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "#2a2a28"
+        "$value": "#2a2a28",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "#31312e"
+        "$value": "#31312e",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "#3b3a37"
+        "$value": "#3b3a37",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "#494844"
+        "$value": "#494844",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "#62605b"
+        "$value": "#62605b",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "#6f6d66"
+        "$value": "#6f6d66",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "#7c7b74"
+        "$value": "#7c7b74",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "#b5b3ad"
+        "$value": "#b5b3ad",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "#eeeeec"
+        "$value": "#eeeeec",
+        "$description": "High-contrast text"
       },
       "a11": {
         "$type": "color",
-        "$value": "#fffcf4b0"
+        "$value": "#fffcf4b0",
+        "$description": "Low-contrast text (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#fffae966"
+        "$value": "#fffae966",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#fffdee73"
+        "$value": "#fffdee73",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#fff9eb57"
+        "$value": "#fff9eb57",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#fffbed3d"
+        "$value": "#fffbed3d",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#fbfbeb24"
+        "$value": "#fbfbeb24",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#f6f6f512"
+        "$value": "#f6f6f512",
+        "$description": "UI element background (alpha)"
       },
       "a1": {
         "$type": "color",
-        "$value": "#00000000"
+        "$value": "#00000000",
+        "$description": "App background (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#f4f4f30a"
+        "$value": "#f4f4f30a",
+        "$description": "Subtle background (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#fffaed2e"
+        "$value": "#fffaed2e",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#fffffded"
+        "$value": "#fffffded",
+        "$description": "High-contrast text (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#fefef31c"
+        "$value": "#fefef31c",
+        "$description": "Hovered UI element background (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#ffffff",
+        "$description": "Contrast color for the scale"
       }
     },
     "grass": {
       "1": {
         "$type": "color",
-        "$value": "#0e1511"
+        "$value": "#0e1511",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "#141a15"
+        "$value": "#141a15",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "#1b2a1e"
+        "$value": "#1b2a1e",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "#1d3a24"
+        "$value": "#1d3a24",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "#25482d"
+        "$value": "#25482d",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "#2d5736"
+        "$value": "#2d5736",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "#366740"
+        "$value": "#366740",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "#3e7949"
+        "$value": "#3e7949",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "#46a758"
+        "$value": "#46a758",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "#53b365"
+        "$value": "#53b365",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "#71d083"
+        "$value": "#71d083",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "#c2f0c2"
+        "$value": "#c2f0c2",
+        "$description": "High-contrast text"
       },
       "a11": {
         "$type": "color",
-        "$value": "#89ff9fcc"
+        "$value": "#89ff9fcc",
+        "$description": "Low-contrast text (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#ceffcef0"
+        "$value": "#ceffcef0",
+        "$description": "High-contrast text (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#72ff8dad"
+        "$value": "#72ff8dad",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#65ff82a1"
+        "$value": "#65ff82a1",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a1": {
         "$type": "color",
-        "$value": "#00de1205"
+        "$value": "#00de1205",
+        "$description": "App background (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#77fd925c"
+        "$value": "#77fd925c",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#70fe8c1c"
+        "$value": "#70fe8c1c",
+        "$description": "UI element background (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#5ef7780a"
+        "$value": "#5ef7780a",
+        "$description": "Subtle background (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#57ff802b"
+        "$value": "#57ff802b",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#77fd9070"
+        "$value": "#77fd9070",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#71ff8f4a"
+        "$value": "#71ff8f4a",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#68ff8b3b"
+        "$value": "#68ff8b3b",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#ffffff",
+        "$description": "Contrast color for the scale"
       }
     },
     "gold": {
       "1": {
         "$type": "color",
-        "$value": "#000000"
+        "$value": "#000000",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "#15110a"
+        "$value": "#15110a",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "#281e09"
+        "$value": "#281e09",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "#392800"
+        "$value": "#392800",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "#463200"
+        "$value": "#463200",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "#544011"
+        "$value": "#544011",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "#685322"
+        "$value": "#685322",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "#846a2d"
+        "$value": "#846a2d",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "#e8b430"
+        "$value": "#e8b430",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "#dda91e"
+        "$value": "#dda91e",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "#fac750"
+        "$value": "#fac750",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "#fae7be"
+        "$value": "#fae7be",
+        "$description": "High-contrast text"
       },
       "a1": {
         "$type": "color",
-        "$value": "#00000000"
+        "$value": "#00000000",
+        "$description": "App background (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#ffcf7a15"
+        "$value": "#ffcf7a15",
+        "$description": "Subtle background (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#ffc03a28"
+        "$value": "#ffc03a28",
+        "$description": "UI element background (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#ffb30039"
+        "$value": "#ffb30039",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#ffb70046"
+        "$value": "#ffb70046",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#ffc33454"
+        "$value": "#ffc33454",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#ffcc5468"
+        "$value": "#ffcc5468",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#ffcd5784"
+        "$value": "#ffcd5784",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#ffc635e8"
+        "$value": "#ffc635e8",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#ffc323dd"
+        "$value": "#ffc323dd",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a11": {
         "$type": "color",
-        "$value": "#ffcb52fa"
+        "$value": "#ffcb52fa",
+        "$description": "Low-contrast text (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#ffecc2fa"
+        "$value": "#ffecc2fa",
+        "$description": "High-contrast text (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "#2a2009"
+        "$value": "#2a2009",
+        "$description": "Contrast color for the scale"
       }
     },
     "tomato": {
       "1": {
         "$type": "color",
-        "$value": "#181111"
+        "$value": "#181111",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "#1f1513"
+        "$value": "#1f1513",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "#391714"
+        "$value": "#391714",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "#4e1511"
+        "$value": "#4e1511",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "#5e1c16"
+        "$value": "#5e1c16",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "#6e2920"
+        "$value": "#6e2920",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "#853a2d"
+        "$value": "#853a2d",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "#ac4d39"
+        "$value": "#ac4d39",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "#e54d2e"
+        "$value": "#e54d2e",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "#ec6142"
+        "$value": "#ec6142",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "#ff977d"
+        "$value": "#ff977d",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "#fbd3cb"
+        "$value": "#fbd3cb",
+        "$description": "High-contrast text"
       },
       "a1": {
         "$type": "color",
-        "$value": "#f1121208"
+        "$value": "#f1121208",
+        "$description": "App background (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#ffd6cefa"
+        "$value": "#ffd6cefa",
+        "$description": "High-contrast text (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#ff6847eb"
+        "$value": "#ff6847eb",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a11": {
         "$type": "color",
-        "$value": "#ff977d"
+        "$value": "#ff977d",
+        "$description": "Low-contrast text (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#fe5431e3"
+        "$value": "#fe5431e3",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#fe6d4ea6"
+        "$value": "#fe6d4ea6",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#fd201142"
+        "$value": "#fd201142",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#ff4f3863"
+        "$value": "#ff4f3863",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#ff35232b"
+        "$value": "#ff35232b",
+        "$description": "UI element background (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#fd644a7d"
+        "$value": "#fd644a7d",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#ff55330f"
+        "$value": "#ff55330f",
+        "$description": "Subtle background (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#fe332154"
+        "$value": "#fe332154",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#ffffff",
+        "$description": "Contrast color for the scale"
       }
     },
     "blue": {
       "1": {
         "$type": "color",
-        "$value": "#0d1520"
+        "$value": "#0d1520",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "#111927"
+        "$value": "#111927",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "#0d2847"
+        "$value": "#0d2847",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "#003362"
+        "$value": "#003362",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "#004074"
+        "$value": "#004074",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "#104d87"
+        "$value": "#104d87",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "#205d9e"
+        "$value": "#205d9e",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "#2870bd"
+        "$value": "#2870bd",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "#0090ff"
+        "$value": "#0090ff",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "#3b9eff"
+        "$value": "#3b9eff",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "#70b8ff"
+        "$value": "#70b8ff",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "#c2e6ff"
+        "$value": "#c2e6ff",
+        "$description": "High-contrast text"
       },
       "a12": {
         "$type": "color",
-        "$value": "#c2e6ff"
+        "$value": "#c2e6ff",
+        "$description": "High-contrast text (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#3094feba"
+        "$value": "#3094feba",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a11": {
         "$type": "color",
-        "$value": "#70b8ff"
+        "$value": "#70b8ff",
+        "$description": "Low-contrast text (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#1166fb17"
+        "$value": "#1166fb17",
+        "$description": "Subtle background (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#0090ff"
+        "$value": "#0090ff",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#0f89fd80"
+        "$value": "#0f89fd80",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#2a91fe99"
+        "$value": "#2a91fe99",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#0077ff3b"
+        "$value": "#0077ff3b",
+        "$description": "UI element background (alpha)"
       },
       "a1": {
         "$type": "color",
-        "$value": "#004df212"
+        "$value": "#004df212",
+        "$description": "App background (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#0081fd6b"
+        "$value": "#0081fd6b",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#0075ff57"
+        "$value": "#0075ff57",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#3b9eff"
+        "$value": "#3b9eff",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#ffffff",
+        "$description": "Contrast color for the scale"
       }
     }
   },
   "global": {
     "transparent": {
       "$type": "color",
-      "$value": "#00000000"
+      "$value": "#00000000",
+      "$description": "Fully transparent color"
     },
     "white": {
       "default": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#ffffff",
+        "$description": "Pure white color"
       },
       "a11": {
         "$type": "color",
-        "$value": "#ffffffe6"
+        "$value": "#ffffffe6",
+        "$description": "White with high opacity (~90%)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#ffffff99"
+        "$value": "#ffffff99",
+        "$description": "White with medium-high opacity (~60%)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#fffffff2"
+        "$value": "#fffffff2",
+        "$description": "White with very high opacity (~95%)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#ffffff80"
+        "$value": "#ffffff80",
+        "$description": "White with medium opacity (~50%)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#ffffff4d"
+        "$value": "#ffffff4d",
+        "$description": "White with low-medium opacity (~30%)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#ffffff33"
+        "$value": "#ffffff33",
+        "$description": "White with low opacity (~20%)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#ffffffcc"
+        "$value": "#ffffffcc",
+        "$description": "White with high opacity (~80%)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#ffffff1a"
+        "$value": "#ffffff1a",
+        "$description": "White with very low opacity (~10%)"
       },
       "a9": {
         "$type": "color",
-        "$value": "#ffffffb3"
+        "$value": "#ffffffb3",
+        "$description": "White with medium-high opacity (~70%)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#ffffff66"
+        "$value": "#ffffff66",
+        "$description": "White with medium opacity (~40%)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#ffffff26"
+        "$value": "#ffffff26",
+        "$description": "White with low opacity (~15%)"
       },
       "a1": {
         "$type": "color",
-        "$value": "#ffffff0d"
+        "$value": "#ffffff0d",
+        "$description": "White with very low opacity (~5%)"
       }
     },
     "black": {
       "default": {
         "$type": "color",
-        "$value": "#000000"
+        "$value": "#000000",
+        "$description": "Pure black color"
       },
       "a9": {
         "$type": "color",
-        "$value": "#000000b3"
+        "$value": "#000000b3",
+        "$description": "Black with medium-high opacity (~70%)"
       },
       "a8": {
         "$type": "color",
-        "$value": "#00000099"
+        "$value": "#00000099",
+        "$description": "Black with medium-high opacity (~60%)"
       },
       "a7": {
         "$type": "color",
-        "$value": "#00000080"
+        "$value": "#00000080",
+        "$description": "Black with medium opacity (~50%)"
       },
       "a3": {
         "$type": "color",
-        "$value": "#00000026"
+        "$value": "#00000026",
+        "$description": "Black with low opacity (~15%)"
       },
       "a10": {
         "$type": "color",
-        "$value": "#000000cc"
+        "$value": "#000000cc",
+        "$description": "Black with high opacity (~80%)"
       },
       "a4": {
         "$type": "color",
-        "$value": "#00000033"
+        "$value": "#00000033",
+        "$description": "Black with low opacity (~20%)"
       },
       "a6": {
         "$type": "color",
-        "$value": "#00000066"
+        "$value": "#00000066",
+        "$description": "Black with medium opacity (~40%)"
       },
       "a1": {
         "$type": "color",
-        "$value": "#0000000d"
+        "$value": "#0000000d",
+        "$description": "Black with very low opacity (~5%)"
       },
       "a12": {
         "$type": "color",
-        "$value": "#000000f2"
+        "$value": "#000000f2",
+        "$description": "Black with very high opacity (~95%)"
       },
       "a11": {
         "$type": "color",
-        "$value": "#000000e6"
+        "$value": "#000000e6",
+        "$description": "Black with high opacity (~90%)"
       },
       "a5": {
         "$type": "color",
-        "$value": "#0000004d"
+        "$value": "#0000004d",
+        "$description": "Black with low-medium opacity (~30%)"
       },
       "a2": {
         "$type": "color",
-        "$value": "#0000001a"
+        "$value": "#0000001a",
+        "$description": "Black with very low opacity (~10%)"
       }
     }
   },
   "misc": {
     "backdrop": {
       "$type": "color",
-      "$value": "{global.black.a9}"
+      "$value": "{global.black.a9}",
+      "$description": "Backdrop overlay for modals and dialogs"
     },
     "dark-to-white": {
       "$type": "color",
-      "$value": "{global.white.default}"
+      "$value": "{global.white.default}",
+      "$description": "Adaptive color that transitions from dark to white"
     },
     "white-to-dark-2": {
       "$type": "color",
-      "$value": "{global.black.a4}"
+      "$value": "{global.black.a4}",
+      "$description": "Adaptive color that transitions from white to dark (secondary variant)"
     },
     "white-to-dark": {
       "$type": "color",
-      "$value": "{colors.gray.1}"
+      "$value": "{colors.gray.1}",
+      "$description": "Adaptive color that transitions from white to dark"
     },
     "light-mode": {
       "$type": "boolean",
