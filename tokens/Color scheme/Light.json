@@ -412,6 +412,108 @@
         "$value": "#ffffff"
       }
     },
+    "Gold": {
+      "1": {
+        "$type": "color",
+        "$value": "#fcfaf8"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#fff7e5"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "#ffefb5"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "#ffe698"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#ffda71"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "#ffcd62"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "#ecbd59"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "#daa520"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "#daa520"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#ce9a01"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "#9a6c00"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "#48391c"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "#cb653005"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "#fff7e5"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "#ffefb5"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "#ffe698"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "#ffda71"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "#ffcd62"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "#e39b00a5"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "#d59800df"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "#d59800df"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "#ce9a00fe"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "#9a6c00"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "#312100e3"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#fff"
+      }
+    },
     "Tomato": {
       "1": {
         "$type": "color",

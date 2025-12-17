@@ -412,6 +412,108 @@
         "$value": "#ffffff"
       }
     },
+    "Gold": {
+      "1": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#15110a"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "#281e09"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "#392800"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#463200"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "#544011"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "#685322"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "#846a2d"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "#e8b430"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#dda91e"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "#fac750"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "#fae7be"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "#00000000"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "#ffcf7a15"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "#ffc03a28"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "#ffb30039"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "#ffb70046"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "#ffc33454"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "#ffcc5468"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "#ffcd5784"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "#ffc635e8"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "#ffc323dd"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "#ffcb52fa"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "#ffecc2fa"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#2a2009"
+      }
+    },
     "Tomato": {
       "1": {
         "$type": "color",
