@@ -3,415 +3,512 @@
     "neutral": {
       "1": {
         "$type": "color",
-        "$value": "{colors.gray.1}"
+        "$value": "{colors.gray.1}",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "{colors.gray.2}"
+        "$value": "{colors.gray.2}",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "{colors.gray.3}"
+        "$value": "{colors.gray.3}",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "{colors.gray.4}"
+        "$value": "{colors.gray.4}",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "{colors.gray.5}"
+        "$value": "{colors.gray.5}",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "{colors.gray.6}"
+        "$value": "{colors.gray.6}",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "{colors.gray.7}"
+        "$value": "{colors.gray.7}",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "{colors.gray.8}"
+        "$value": "{colors.gray.8}",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "{colors.gray.9}"
+        "$value": "{colors.gray.9}",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "{colors.gray.10}"
+        "$value": "{colors.gray.10}",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "{colors.gray.11}"
+        "$value": "{colors.gray.11}",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "{colors.gray.12}"
+        "$value": "{colors.gray.12}",
+        "$description": "High-contrast text"
       },
       "a1": {
         "$type": "color",
-        "$value": "{colors.gray.a1}"
+        "$value": "{colors.gray.a1}",
+        "$description": "App background (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "{colors.gray.a2}"
+        "$value": "{colors.gray.a2}",
+        "$description": "Subtle background (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "{colors.gray.a3}"
+        "$value": "{colors.gray.a3}",
+        "$description": "UI element background (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "{colors.gray.a4}"
+        "$value": "{colors.gray.a4}",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "{colors.gray.a5}"
+        "$value": "{colors.gray.a5}",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "{colors.gray.a6}"
+        "$value": "{colors.gray.a6}",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "{colors.gray.a7}"
+        "$value": "{colors.gray.a7}",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "{colors.gray.a8}"
+        "$value": "{colors.gray.a8}",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "{colors.gray.a9}"
+        "$value": "{colors.gray.a9}",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "{colors.gray.a10}"
+        "$value": "{colors.gray.a10}",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a11": {
         "$type": "color",
-        "$value": "{colors.gray.a11}"
+        "$value": "{colors.gray.a11}",
+        "$description": "Low-contrast text (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "{colors.gray.a12}"
+        "$value": "{colors.gray.a12}",
+        "$description": "High-contrast text (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "{colors.gray.contrast}"
+        "$value": "{colors.gray.contrast}",
+        "$description": "Contrast text color, often used on solid backgrounds"
       },
       "solid": {
         "fg": {
           "$type": "color",
-          "$value": "{colors.neutral.contrast}"
+          "$value": "{colors.neutral.contrast}",
+          "$description": "Foreground color for text and icons on solid background"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.neutral.12}"
+          "$value": "{colors.neutral.12}",
+          "$description": "Background color for active state in solid variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.neutral.11}"
+          "$value": "{colors.neutral.11}",
+          "$description": "Background color for hover state in solid variant"
         },
         "bg": {
           "$type": "color",
-          "$value": "{colors.neutral.12}"
+          "$value": "{colors.neutral.12}",
+          "$description": "Background color for solid variant"
         }
       },
       "soft": {
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.neutral.a5}"
+          "$value": "{colors.neutral.a5}",
+          "$description": "Background color for active state in soft variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.neutral.a4}"
+          "$value": "{colors.neutral.a4}",
+          "$description": "Background color for hover state in soft variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.neutral.a12}"
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in soft variant"
         },
         "bg": {
           "$type": "color",
-          "$value": "{colors.neutral.a3}"
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for soft variant"
         }
       },
       "outline": {
         "border": {
           "$type": "color",
-          "$value": "{colors.neutral.a7}"
+          "$value": "{colors.neutral.a7}",
+          "$description": "Border color for outline variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.neutral.a12}"
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in outline variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.neutral.a3}"
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in outline variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.neutral.a2}"
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in outline variant"
         },
         "bg": {
           "$type": "color",
-          "$value": "{colors.global.transparent}"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for outline variant"
         }
       },
       "ghost": {
         "fg": {
           "$type": "color",
-          "$value": "{colors.neutral.a12}"
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in ghost variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.neutral.a3}"
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in ghost variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.neutral.a2}"
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in ghost variant"
         },
         "bg": {
           "$type": "color",
-          "$value": "{colors.global.transparent}"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for ghost variant"
         }
       },
       "subtle": {
         "border": {
           "$type": "color",
-          "$value": "{colors.neutral.a3}"
+          "$value": "{colors.neutral.a3}",
+          "$description": "Border color for subtle variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.neutral.a3}"
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in subtle variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.neutral.a12}"
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in subtle variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.neutral.a2}"
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in subtle variant"
         },
         "bg": {
           "$type": "color",
-          "$value": "{colors.global.transparent}"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for subtle variant"
         }
       }
     },
     "accent": {
       "1": {
         "$type": "color",
-        "$value": "{colors.gold.1}"
+        "$value": "{colors.gold.1}",
+        "$description": "App background"
       },
       "2": {
         "$type": "color",
-        "$value": "{colors.gold.2}"
+        "$value": "{colors.gold.2}",
+        "$description": "Subtle background"
       },
       "3": {
         "$type": "color",
-        "$value": "{colors.gold.3}"
+        "$value": "{colors.gold.3}",
+        "$description": "UI element background"
       },
       "4": {
         "$type": "color",
-        "$value": "{colors.gold.4}"
+        "$value": "{colors.gold.4}",
+        "$description": "Hovered UI element background"
       },
       "5": {
         "$type": "color",
-        "$value": "{colors.gold.5}"
+        "$value": "{colors.gold.5}",
+        "$description": "Active / Selected UI element background"
       },
       "6": {
         "$type": "color",
-        "$value": "{colors.gold.6}"
+        "$value": "{colors.gold.6}",
+        "$description": "Subtle borders and separators"
       },
       "7": {
         "$type": "color",
-        "$value": "{colors.gold.7}"
+        "$value": "{colors.gold.7}",
+        "$description": "UI element border and focus rings"
       },
       "8": {
         "$type": "color",
-        "$value": "{colors.gold.8}"
+        "$value": "{colors.gold.8}",
+        "$description": "Hovered UI element border"
       },
       "9": {
         "$type": "color",
-        "$value": "{colors.gold.9}"
+        "$value": "{colors.gold.9}",
+        "$description": "Solid backgrounds"
       },
       "10": {
         "$type": "color",
-        "$value": "{colors.gold.10}"
+        "$value": "{colors.gold.10}",
+        "$description": "Hovered solid backgrounds"
       },
       "11": {
         "$type": "color",
-        "$value": "{colors.gold.11}"
+        "$value": "{colors.gold.11}",
+        "$description": "Low-contrast text"
       },
       "12": {
         "$type": "color",
-        "$value": "{colors.gold.12}"
+        "$value": "{colors.gold.12}",
+        "$description": "High-contrast text"
       },
       "a1": {
         "$type": "color",
-        "$value": "{colors.gold.a1}"
+        "$value": "{colors.gold.a1}",
+        "$description": "App background (alpha)"
       },
       "a2": {
         "$type": "color",
-        "$value": "{colors.gold.a2}"
+        "$value": "{colors.gold.a2}",
+        "$description": "Subtle background (alpha)"
       },
       "a3": {
         "$type": "color",
-        "$value": "{colors.gold.a3}"
+        "$value": "{colors.gold.a3}",
+        "$description": "UI element background (alpha)"
       },
       "a4": {
         "$type": "color",
-        "$value": "{colors.gold.a4}"
+        "$value": "{colors.gold.a4}",
+        "$description": "Hovered UI element background (alpha)"
       },
       "a5": {
         "$type": "color",
-        "$value": "{colors.gold.a5}"
+        "$value": "{colors.gold.a5}",
+        "$description": "Active / Selected UI element background (alpha)"
       },
       "a6": {
         "$type": "color",
-        "$value": "{colors.gold.a6}"
+        "$value": "{colors.gold.a6}",
+        "$description": "Subtle borders and separators (alpha)"
       },
       "a7": {
         "$type": "color",
-        "$value": "{colors.gold.a7}"
+        "$value": "{colors.gold.a7}",
+        "$description": "UI element border and focus rings (alpha)"
       },
       "a8": {
         "$type": "color",
-        "$value": "{colors.gold.a8}"
+        "$value": "{colors.gold.a8}",
+        "$description": "Hovered UI element border (alpha)"
       },
       "a9": {
         "$type": "color",
-        "$value": "{colors.gold.a9}"
+        "$value": "{colors.gold.a9}",
+        "$description": "Solid backgrounds (alpha)"
       },
       "a10": {
         "$type": "color",
-        "$value": "{colors.gold.a10}"
+        "$value": "{colors.gold.a10}",
+        "$description": "Hovered solid backgrounds (alpha)"
       },
       "a11": {
         "$type": "color",
-        "$value": "{colors.gold.a11}"
+        "$value": "{colors.gold.a11}",
+        "$description": "Low-contrast text (alpha)"
       },
       "a12": {
         "$type": "color",
-        "$value": "{colors.gold.a12}"
+        "$value": "{colors.gold.a12}",
+        "$description": "High-contrast text (alpha)"
       },
       "contrast": {
         "$type": "color",
-        "$value": "{colors.gold.contrast}"
+        "$value": "{colors.gold.contrast}",
+        "$description": "Contrast text color, often used on solid backgrounds"
       },
       "solid": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.accent.9}"
+          "$value": "{colors.accent.9}",
+          "$description": "Background color for solid variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.accent.10}"
+          "$value": "{colors.accent.10}",
+          "$description": "Background color for hover state in solid variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.accent.contrast}"
+          "$value": "{colors.accent.contrast}",
+          "$description": "Foreground color for text and icons on solid background"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.accent.9}"
+          "$value": "{colors.accent.9}",
+          "$description": "Background color for active state in solid variant"
         }
       },
       "soft": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.accent.a3}"
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for soft variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.accent.a4}"
+          "$value": "{colors.accent.a4}",
+          "$description": "Background color for hover state in soft variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.accent.a5}"
+          "$value": "{colors.accent.a5}",
+          "$description": "Background color for active state in soft variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.accent.a11}"
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in soft variant"
         }
       },
       "outline": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.global.transparent}"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for outline variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.accent.a2}"
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in outline variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.accent.a3}"
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in outline variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.accent.a11}"
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in outline variant"
         },
         "border": {
           "$type": "color",
-          "$value": "{colors.accent.a7}"
+          "$value": "{colors.accent.a7}",
+          "$description": "Border color for outline variant"
         }
       },
       "ghost": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.global.transparent}"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for ghost variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.accent.a2}"
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in ghost variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.accent.a3}"
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in ghost variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.accent.a11}"
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in ghost variant"
         }
       },
       "subtle": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.global.transparent}"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for subtle variant"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.accent.a2}"
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in subtle variant"
         },
         "bg-active": {
           "$type": "color",
-          "$value": "{colors.accent.a3}"
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in subtle variant"
         },
         "border": {
           "$type": "color",
-          "$value": "{colors.accent.a3}"
+          "$value": "{colors.accent.a3}",
+          "$description": "Border color for subtle variant"
         },
         "fg": {
           "$type": "color",
-          "$value": "{colors.accent.a11}"
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in subtle variant"
         }
       }
     },
     "foreground": {
       "default": {
         "$type": "color",
-        "$value": "{colors.gray.12}"
+        "$value": "{colors.gray.12}",
+        "$description": "Default foreground color for primary text and icons"
       },
       "muted": {
         "$type": "color",
-        "$value": "{colors.gray.11}"
+        "$value": "{colors.gray.11}",
+        "$description": "Muted foreground color for secondary text and icons"
       },
       "subtle": {
         "$type": "color",
-        "$value": "{colors.gray.10}"
+        "$value": "{colors.gray.10}",
+        "$description": "Subtle foreground color for tertiary text and icons"
       }
     }
   },
