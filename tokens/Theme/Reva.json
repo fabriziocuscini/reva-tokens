@@ -1,0 +1,774 @@
+{
+  "Colors": {
+    "Neutral": {
+      "1": {
+        "$type": "color",
+        "$value": "{Colors.Gray.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Colors.Gray.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Colors.Gray.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Colors.Gray.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Colors.Gray.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Colors.Gray.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Colors.Gray.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Colors.Gray.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Colors.Gray.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Colors.Gray.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Colors.Gray.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Colors.Gray.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Colors.Gray.a12}"
+      },
+      "solid": {
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.contrast}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.12}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.11}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.12}"
+        }
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Colors.Gray.contrast}"
+      },
+      "soft": {
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a5}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a4}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a12}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a3}"
+        }
+      },
+      "outline": {
+        "border": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a7}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a12}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a3}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a2}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Default.transparent}"
+        }
+      },
+      "ghost": {
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a12}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a3}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a2}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Default.transparent}"
+        }
+      },
+      "subtle": {
+        "border": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a3}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a3}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a12}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Neutral.a2}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Default.transparent}"
+        }
+      }
+    },
+    "Accent": {
+      "1": {
+        "$type": "color",
+        "$value": "{Colors.Amber.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Colors.Amber.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Colors.Amber.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Colors.Amber.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{Colors.Amber.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{Colors.Amber.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{Colors.Amber.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{Colors.Amber.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{Colors.Amber.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{Colors.Amber.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{Colors.Amber.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{Colors.Amber.12}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a1}"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a2}"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a3}"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a4}"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a5}"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a6}"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a7}"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a8}"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a9}"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a10}"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a11}"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{Colors.Amber.a12}"
+      },
+      "solid": {
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.9}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Accent.10}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.contrast}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Accent.9}"
+        }
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Colors.Amber.contrast}"
+      },
+      "soft": {
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a3}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a4}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a5}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a11}"
+        }
+      },
+      "outline": {
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Default.transparent}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a2}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a3}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a11}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a7}"
+        }
+      },
+      "ghost": {
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Default.transparent}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a2}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a3}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a11}"
+        }
+      },
+      "subtle": {
+        "bg": {
+          "$type": "color",
+          "$value": "{Colors.Default.transparent}"
+        },
+        "bg:hover": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a2}"
+        },
+        "bg:active": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a3}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a3}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{Colors.Accent.a11}"
+        }
+      }
+    },
+    "Foreground": {
+      "default": {
+        "$type": "color",
+        "$value": "{Colors.Gray.12}"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{Colors.Gray.11}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{Colors.Gray.10}"
+      }
+    }
+  },
+  "Typography": {
+    "fonts": {
+      "heading-brand": {
+        "$type": "text",
+        "$value": "{Typography.font-families.serif}",
+        "$description": "Font family for headings"
+      },
+      "body": {
+        "$type": "text",
+        "$value": "{Typography.font-families.sans-serif}",
+        "$description": "Default font family for body text"
+      },
+      "heading": {
+        "$type": "text",
+        "$value": "{Typography.font-families.sans-serif}",
+        "$description": "Font family for headings"
+      }
+    },
+    "font-families": {
+      "serif": {
+        "$type": "text",
+        "$value": "Playfair Display",
+        "$description": "Font family for headings"
+      },
+      "sans-serif": {
+        "$type": "text",
+        "$value": "Geist",
+        "$description": "Default font family for body text"
+      },
+      "mono": {
+        "$type": "text",
+        "$value": "Geist Mono",
+        "$description": "Font family for monospaced text"
+      }
+    },
+    "fontSizes": {
+      "2xl": {
+        "$type": "dimension",
+        "$value": "1.25rem"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "1.125rem"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "1.5rem"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "0.75rem"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "0.875rem",
+        "$description": "Medium (default) font size. On web this usually equals to 16px, or 1rem"
+      },
+      "6xl": {
+        "$type": "dimension",
+        "$value": "4rem"
+      },
+      "2xs": {
+        "$type": "dimension",
+        "$value": "0.625rem"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "1rem"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "0.688rem"
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "2.5rem"
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "2rem"
+      }
+    },
+    "lineHeights": {
+      "taller": {
+        "$type": "dimension",
+        "$value": "0.125rem"
+      },
+      "tall": {
+        "$type": "dimension",
+        "$value": "0.102rem"
+      },
+      "short": {
+        "$type": "dimension",
+        "$value": "0.086rem"
+      },
+      "moderate": {
+        "$type": "dimension",
+        "$value": "0.094rem"
+      },
+      "shorter": {
+        "$type": "dimension",
+        "$value": "0.078rem"
+      }
+    },
+    "fontWeights": {
+      "medium": {
+        "$type": "dimension",
+        "$value": "31.25rem"
+      },
+      "bold": {
+        "$type": "dimension",
+        "$value": "43.75rem"
+      },
+      "semibold": {
+        "$type": "dimension",
+        "$value": "37.5rem"
+      },
+      "light": {
+        "$type": "dimension",
+        "$value": "18.75rem"
+      },
+      "extrabold": {
+        "$type": "dimension",
+        "$value": "50rem"
+      },
+      "black": {
+        "$type": "dimension",
+        "$value": "56.25rem"
+      },
+      "normal": {
+        "$type": "dimension",
+        "$value": "25rem"
+      }
+    },
+    "letterSpacings": {
+      "wider": {
+        "$type": "dimension",
+        "$value": "0.03rem"
+      },
+      "wide": {
+        "$type": "dimension",
+        "$value": "0.02rem"
+      },
+      "normal": {
+        "$type": "dimension",
+        "$value": "0rem"
+      },
+      "tight": {
+        "$type": "dimension",
+        "$value": "-0.02rem"
+      },
+      "tighter": {
+        "$type": "dimension",
+        "$value": "-0.03rem"
+      }
+    }
+  },
+  "Animation duration": {
+    "slowest": {
+      "$type": "dimension",
+      "$value": "31.25rem",
+      "$description": "Slowest speed for transitions and animations"
+    },
+    "fast": {
+      "$type": "dimension",
+      "$value": "9.375rem",
+      "$description": "Fast speed for transitions and animations"
+    },
+    "faster": {
+      "$type": "dimension",
+      "$value": "6.25rem",
+      "$description": "Faster speed for transitions and animations"
+    },
+    "slow": {
+      "$type": "dimension",
+      "$value": "18.75rem",
+      "$description": "Slow speed for transitions and animations"
+    },
+    "slower": {
+      "$type": "dimension",
+      "$value": "25rem",
+      "$description": "Slower speed for transitions and animations"
+    },
+    "moderate": {
+      "$type": "dimension",
+      "$value": "12.5rem",
+      "$description": "Moderate (default) speed for transitions and animations"
+    },
+    "fastest": {
+      "$type": "dimension",
+      "$value": "3.125rem",
+      "$description": "Fastest speed for transitions and animations"
+    }
+  },
+  "Breakpoints": {
+    "2xl": {
+      "$type": "dimension",
+      "$value": "160rem",
+      "$description": "Displays with QHD (Quad HD) min resolution (2560x1440)"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "80rem",
+      "$description": "Displays with HD min resolution (1280x720), usually small laptops or large tablets in landscape mode"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "240rem",
+      "$description": "Displays with 4K Ultra HD resolution (3840x2160)"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "120rem",
+      "$description": "Displays with FHD (Full HD) min resolution (1920x1080)"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "48rem",
+      "$description": "Small displays, usually tablets in portrait mode or large phones in landscape mode"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "32.5rem",
+      "$description": "Extra small displays, usually phones in portrait mode"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "64rem",
+      "$description": "Medium displays, usually tablets in landscape mode"
+    },
+    "initial": {
+      "$type": "dimension",
+      "$value": "0rem",
+      "$description": "Any display of any size"
+    }
+  },
+  "Spacing": {
+    "md": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "0.25rem"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "2rem"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "2.5rem"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "3rem"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "4rem"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "5rem"
+    },
+    "3xs": {
+      "$type": "dimension",
+      "$value": "0.125rem"
+    }
+  },
+  "Radius": {
+    "3xl": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "0.375rem"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "0.25rem"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "none": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "624.938rem"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "2rem"
+    }
+  },
+  "Blurs": {
+    "lg": {
+      "$type": "dimension",
+      "$value": "1rem",
+      "$description": "Large blur — visible softening for emphasis or layering."
+    },
+    "none": {
+      "$type": "dimension",
+      "$value": "0rem",
+      "$description": "No blur — fully sharp edges."
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "0.25rem",
+      "$description": "Small blur — gentle softening for subtle UI elements."
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "1.5rem",
+      "$description": "Extra large blur — strong softness for overlays or glass effects."
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "0.125rem",
+      "$description": "Extra small blur — ultra-subtle softening for fine details or delicate layering."
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "0.5rem",
+      "$description": "Medium blur — balanced softness for shadows, surfaces, or backgrounds."
+    }
+  }
+}

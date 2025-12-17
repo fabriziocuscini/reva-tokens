@@ -1,3 +1,7 @@
 {
-  "tokenSetOrder": []
+  "tokenSetOrder": [
+    "Color scheme/Light",
+    "Color scheme/Dark",
+    "Theme/Reva"
+  ]
 }
