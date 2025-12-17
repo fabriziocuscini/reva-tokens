@@ -127,103 +127,86 @@
         "$description": "Contrast text color, often used on solid backgrounds"
       },
       "solid": {
-        "fg": {
-          "$type": "color",
-          "$value": "{colors.neutral.contrast}",
-          "$description": "Foreground color for text and icons on solid background"
-        },
-        "bg-active": {
+        "bg": {
           "$type": "color",
           "$value": "{colors.neutral.12}",
-          "$description": "Background color for active state in solid variant"
+          "$description": "Background color for solid variant"
         },
         "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.11}",
           "$description": "Background color for hover state in solid variant"
         },
-        "bg": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.12}",
-          "$description": "Background color for solid variant"
+          "$description": "Background color for active state in solid variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.contrast}",
+          "$description": "Foreground color for text and icons on solid background"
         }
       },
       "soft": {
-        "bg-active": {
+        "bg": {
           "$type": "color",
-          "$value": "{colors.neutral.a5}",
-          "$description": "Background color for active state in soft variant"
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for soft variant"
         },
         "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a4}",
           "$description": "Background color for hover state in soft variant"
         },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.a5}",
+          "$description": "Background color for active state in soft variant"
+        },
         "fg": {
           "$type": "color",
           "$value": "{colors.neutral.a12}",
           "$description": "Foreground color for text and icons in soft variant"
-        },
-        "bg": {
-          "$type": "color",
-          "$value": "{colors.neutral.a3}",
-          "$description": "Background color for soft variant"
         }
       },
       "outline": {
-        "border": {
+        "bg": {
           "$type": "color",
-          "$value": "{colors.neutral.a7}",
-          "$description": "Border color for outline variant"
-        },
-        "fg": {
-          "$type": "color",
-          "$value": "{colors.neutral.a12}",
-          "$description": "Foreground color for text and icons in outline variant"
-        },
-        "bg-active": {
-          "$type": "color",
-          "$value": "{colors.neutral.a3}",
-          "$description": "Background color for active state in outline variant"
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for outline variant"
         },
         "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a2}",
           "$description": "Background color for hover state in outline variant"
         },
-        "bg": {
-          "$type": "color",
-          "$value": "{colors.global.transparent}",
-          "$description": "Background color for outline variant"
-        }
-      },
-      "ghost": {
-        "fg": {
-          "$type": "color",
-          "$value": "{colors.neutral.a12}",
-          "$description": "Foreground color for text and icons in ghost variant"
-        },
         "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.a3}",
-          "$description": "Background color for active state in ghost variant"
+          "$description": "Background color for active state in outline variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in outline variant"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{colors.neutral.a7}",
+          "$description": "Border color for outline variant"
+        }
+      },
+      "subtle": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for subtle variant"
         },
         "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a2}",
-          "$description": "Background color for hover state in ghost variant"
-        },
-        "bg": {
-          "$type": "color",
-          "$value": "{colors.global.transparent}",
-          "$description": "Background color for ghost variant"
-        }
-      },
-      "subtle": {
-        "border": {
-          "$type": "color",
-          "$value": "{colors.neutral.a3}",
-          "$description": "Border color for subtle variant"
+          "$description": "Background color for hover state in subtle variant"
         },
         "bg-active": {
           "$type": "color",
@@ -235,15 +218,32 @@
           "$value": "{colors.neutral.a12}",
           "$description": "Foreground color for text and icons in subtle variant"
         },
-        "bg-hover": {
+        "border": {
           "$type": "color",
-          "$value": "{colors.neutral.a2}",
-          "$description": "Background color for hover state in subtle variant"
-        },
+          "$value": "{colors.neutral.a3}",
+          "$description": "Border color for subtle variant"
+        }
+      },
+      "ghost": {
         "bg": {
           "$type": "color",
           "$value": "{colors.global.transparent}",
-          "$description": "Background color for subtle variant"
+          "$description": "Background color for ghost variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in ghost variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in ghost variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in ghost variant"
         }
       }
     },
@@ -384,15 +384,15 @@
           "$value": "{colors.accent.10}",
           "$description": "Background color for hover state in solid variant"
         },
-        "fg": {
-          "$type": "color",
-          "$value": "{colors.accent.contrast}",
-          "$description": "Foreground color for text and icons on solid background"
-        },
         "bg-active": {
           "$type": "color",
           "$value": "{colors.accent.9}",
           "$description": "Background color for active state in solid variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.contrast}",
+          "$description": "Foreground color for text and icons on solid background"
         }
       },
       "soft": {
@@ -444,6 +444,33 @@
           "$description": "Border color for outline variant"
         }
       },
+      "subtle": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.global.transparent}",
+          "$description": "Background color for subtle variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in subtle variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in subtle variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in subtle variant"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Border color for subtle variant"
+        }
+      },
       "ghost": {
         "bg": {
           "$type": "color",
@@ -464,33 +491,6 @@
           "$type": "color",
           "$value": "{colors.accent.a11}",
           "$description": "Foreground color for text and icons in ghost variant"
-        }
-      },
-      "subtle": {
-        "bg": {
-          "$type": "color",
-          "$value": "{colors.global.transparent}",
-          "$description": "Background color for subtle variant"
-        },
-        "bg-hover": {
-          "$type": "color",
-          "$value": "{colors.accent.a2}",
-          "$description": "Background color for hover state in subtle variant"
-        },
-        "bg-active": {
-          "$type": "color",
-          "$value": "{colors.accent.a3}",
-          "$description": "Background color for active state in subtle variant"
-        },
-        "border": {
-          "$type": "color",
-          "$value": "{colors.accent.a3}",
-          "$description": "Border color for subtle variant"
-        },
-        "fg": {
-          "$type": "color",
-          "$value": "{colors.accent.a11}",
-          "$description": "Foreground color for text and icons in subtle variant"
         }
       }
     },
