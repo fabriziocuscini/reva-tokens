@@ -100,10 +100,6 @@
       "contrast": {
         "$type": "color",
         "$value": "#ffffff"
-      },
-      "contrast 2": {
-        "$type": "color",
-        "$value": "#ffffff"
       }
     },
     "Sand": {
