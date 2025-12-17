@@ -864,7 +864,7 @@
           "type": "dropShadow"
         }
       ],
-      "$description": "Radix --shadow-2"
+      "$description": "Extra small shadow for subtle depth on UI elements such as cards"
     },
     "sm": {
       "$type": "boxShadow",
@@ -901,7 +901,106 @@
           "color": "{global.black.a2}",
           "type": "dropShadow"
         }
-      ]
+      ],
+      "$description": "Small shadow for depth on UI elements such as cards"
+    },
+    "md": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8px",
+          "blur": "40px",
+          "spread": "0",
+          "color": "{global.black.a1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "32px",
+          "spread": "-16px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Medium shadow for small overlay panels like hover cards and popovers"
+    },
+    "lg": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "60px",
+          "spread": "0",
+          "color": "{global.black.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "32px",
+          "spread": "-16px",
+          "color": "{colors.gray.a5}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Large shadow for small overlay panels like hover cards and popovers"
+    },
+    "xl": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "60px",
+          "spread": "0",
+          "color": "{global.black.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16px",
+          "blur": "64px",
+          "spread": "0",
+          "color": "{colors.gray.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16px",
+          "blur": "36px",
+          "spread": "-20px",
+          "color": "{colors.gray.a7}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Extra large shadow for larger overlay panels like dialogs"
     }
   }
 }
