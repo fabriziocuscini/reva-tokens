@@ -853,7 +853,7 @@
           "blur": "1px",
           "spread": "-1px",
           "color": "{global.black.a1}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         },
         {
           "x": "0",
@@ -861,10 +861,47 @@
           "blur": "3px",
           "spread": "0",
           "color": "{global.black.a1}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         }
       ],
       "$description": "Radix --shadow-2"
+    },
+    "sm": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2px",
+          "blur": "3px",
+          "spread": "-2px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "12px",
+          "spread": "-4px",
+          "color": "{global.black.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4px",
+          "blur": "16px",
+          "spread": "-8px",
+          "color": "{global.black.a2}",
+          "type": "dropShadow"
+        }
+      ]
     }
   }
 }
