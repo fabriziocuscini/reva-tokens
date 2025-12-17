@@ -460,47 +460,58 @@
   "Spacing": {
     "3xs": {
       "$type": "dimension",
-      "$value": "0.125rem"
+      "$value": "0.125rem",
+      "$description": "Extra extra extra small spacing for tight gaps between closely related elements"
     },
     "2xs": {
       "$type": "dimension",
-      "$value": "0.25rem"
+      "$value": "0.25rem",
+      "$description": "Extra extra small spacing for minimal gaps between compact UI elements"
     },
     "xs": {
       "$type": "dimension",
-      "$value": "0.5rem"
+      "$value": "0.5rem",
+      "$description": "Extra small spacing for tight padding or small gaps between elements"
     },
     "sm": {
       "$type": "dimension",
-      "$value": "0.75rem"
+      "$value": "0.75rem",
+      "$description": "Small spacing for compact padding or tight margins on UI components"
     },
     "md": {
       "$type": "dimension",
-      "$value": "1rem"
+      "$value": "1rem",
+      "$description": "Medium (default) spacing for standard padding, margins, and gaps"
     },
     "lg": {
       "$type": "dimension",
-      "$value": "1.5rem"
+      "$value": "1.5rem",
+      "$description": "Large spacing for comfortable padding or noticeable gaps between sections"
     },
     "xl": {
       "$type": "dimension",
-      "$value": "2rem"
+      "$value": "2rem",
+      "$description": "Extra large spacing for generous padding or clear separation between major sections"
     },
     "2xl": {
       "$type": "dimension",
-      "$value": "2.5rem"
+      "$value": "2.5rem",
+      "$description": "Extra extra large spacing for substantial padding or prominent section separation"
     },
     "3xl": {
       "$type": "dimension",
-      "$value": "3rem"
+      "$value": "3rem",
+      "$description": "Extra extra extra large spacing for generous padding or major layout sections"
     },
     "4xl": {
       "$type": "dimension",
-      "$value": "4rem"
+      "$value": "4rem",
+      "$description": "Extra extra extra extra large spacing for maximum padding or hero section spacing"
     },
     "5xl": {
       "$type": "dimension",
-      "$value": "5rem"
+      "$value": "5rem",
+      "$description": "Extra extra extra extra extra large spacing for dramatic spacing or maximum visual breathing room"
     }
   },
   "Blurs": {
