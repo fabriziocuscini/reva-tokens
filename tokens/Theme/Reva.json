@@ -203,99 +203,99 @@
     "Accent": {
       "1": {
         "$type": "color",
-        "$value": "{Colors.Amber.1}"
+        "$value": "{Colors.Gold.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{Colors.Amber.2}"
+        "$value": "{Colors.Gold.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{Colors.Amber.3}"
+        "$value": "{Colors.Gold.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{Colors.Amber.4}"
+        "$value": "{Colors.Gold.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{Colors.Amber.5}"
+        "$value": "{Colors.Gold.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{Colors.Amber.6}"
+        "$value": "{Colors.Gold.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{Colors.Amber.7}"
+        "$value": "{Colors.Gold.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{Colors.Amber.8}"
+        "$value": "{Colors.Gold.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{Colors.Amber.9}"
+        "$value": "{Colors.Gold.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{Colors.Amber.10}"
+        "$value": "{Colors.Gold.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{Colors.Amber.11}"
+        "$value": "{Colors.Gold.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{Colors.Amber.12}"
+        "$value": "{Colors.Gold.12}"
       },
       "a1": {
         "$type": "color",
-        "$value": "{Colors.Amber.a1}"
+        "$value": "{Colors.Gold.a1}"
       },
       "a2": {
         "$type": "color",
-        "$value": "{Colors.Amber.a2}"
+        "$value": "{Colors.Gold.a2}"
       },
       "a3": {
         "$type": "color",
-        "$value": "{Colors.Amber.a3}"
+        "$value": "{Colors.Gold.a3}"
       },
       "a4": {
         "$type": "color",
-        "$value": "{Colors.Amber.a4}"
+        "$value": "{Colors.Gold.a4}"
       },
       "a5": {
         "$type": "color",
-        "$value": "{Colors.Amber.a5}"
+        "$value": "{Colors.Gold.a5}"
       },
       "a6": {
         "$type": "color",
-        "$value": "{Colors.Amber.a6}"
+        "$value": "{Colors.Gold.a6}"
       },
       "a7": {
         "$type": "color",
-        "$value": "{Colors.Amber.a7}"
+        "$value": "{Colors.Gold.a7}"
       },
       "a8": {
         "$type": "color",
-        "$value": "{Colors.Amber.a8}"
+        "$value": "{Colors.Gold.a8}"
       },
       "a9": {
         "$type": "color",
-        "$value": "{Colors.Amber.a9}"
+        "$value": "{Colors.Gold.a9}"
       },
       "a10": {
         "$type": "color",
-        "$value": "{Colors.Amber.a10}"
+        "$value": "{Colors.Gold.a10}"
       },
       "a11": {
         "$type": "color",
-        "$value": "{Colors.Amber.a11}"
+        "$value": "{Colors.Gold.a11}"
       },
       "a12": {
         "$type": "color",
-        "$value": "{Colors.Amber.a12}"
+        "$value": "{Colors.Gold.a12}"
       },
       "solid": {
         "bg": {
@@ -317,7 +317,7 @@
       },
       "contrast": {
         "$type": "color",
-        "$value": "{Colors.Amber.contrast}"
+        "$value": "{Colors.Gold.contrast}"
       },
       "soft": {
         "bg": {
