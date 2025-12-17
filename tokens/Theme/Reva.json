@@ -728,9 +728,57 @@
       }
     },
     "fontSizes": {
+      "3xs": {
+        "$type": "fontSizes",
+        "$value": "0.625rem"
+      },
+      "2xs": {
+        "$type": "fontSizes",
+        "$value": "0.6875rem"
+      },
+      "xs": {
+        "$type": "fontSizes",
+        "$value": "0.75rem"
+      },
+      "sm": {
+        "$type": "fontSizes",
+        "$value": "0.875rem"
+      },
       "md": {
         "$type": "fontSizes",
         "$value": "1rem"
+      },
+      "lg": {
+        "$type": "fontSizes",
+        "$value": "1.125rem"
+      },
+      "xl": {
+        "$type": "fontSizes",
+        "$value": "1.25rem"
+      },
+      "2xl": {
+        "$type": "fontSizes",
+        "$value": "1.5rem"
+      },
+      "3xl": {
+        "$type": "fontSizes",
+        "$value": "2rem"
+      },
+      "4xl": {
+        "$type": "fontSizes",
+        "$value": "2.5rem"
+      },
+      "5xl": {
+        "$type": "fontSizes",
+        "$value": "4rem"
+      },
+      "6xl": {
+        "$type": "fontSizes",
+        "$value": "4.5rem"
+      },
+      "7xl": {
+        "$type": "fontSizes",
+        "$value": "6rem"
       }
     }
   }
