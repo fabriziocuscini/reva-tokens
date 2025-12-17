@@ -733,7 +733,7 @@
     },
     "xs": {
       "$type": "borderRadius",
-      "$value": "0.125rem",
+      "$value": "0.1875rem",
       "$description": "Extra small radius for subtle rounding on small elements"
     },
     "sm": {
