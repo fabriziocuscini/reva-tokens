@@ -506,223 +506,254 @@
   "Blurs": {
     "none": {
       "$type": "dimension",
-      "$value": "0rem",
-      "$description": "No blur — fully sharp edges."
+      "$value": "0px",
+      "$description": "No blur for crisp, sharp edges on elements that require maximum clarity"
     },
     "xs": {
       "$type": "dimension",
-      "$value": "0.125rem",
-      "$description": "Extra small blur — ultra-subtle softening for fine details or delicate layering."
+      "$value": "2px",
+      "$description": "Extra small blur for ultra-subtle softening on fine details, icons, or delicate layered elements"
     },
     "sm": {
       "$type": "dimension",
-      "$value": "0.25rem",
-      "$description": "Small blur — gentle softening for subtle UI elements."
+      "$value": "4px",
+      "$description": "Small blur for gentle softening on subtle UI elements like tooltips or small overlays"
     },
     "md": {
       "$type": "dimension",
-      "$value": "0.5rem",
-      "$description": "Medium blur — balanced softness for shadows, surfaces, or backgrounds."
+      "$value": "8px",
+      "$description": "Medium blur for balanced softness on shadows, card surfaces, or background elements"
     },
     "lg": {
       "$type": "dimension",
-      "$value": "1rem",
-      "$description": "Large blur — visible softening for emphasis or layering."
+      "$value": "16px",
+      "$description": "Large blur for visible softening on modal backdrops, dropdown menus, or layered components"
     },
     "xl": {
       "$type": "dimension",
-      "$value": "1.5rem",
-      "$description": "Extra large blur — strong softness for overlays or glass effects."
+      "$value": "24px",
+      "$description": "Extra large blur for strong softness on glass morphism effects, heavy overlays, or dramatic depth"
     }
   },
   "Typography": {
     "lineHeights": {
       "shorter": {
         "$type": "lineHeights",
-        "$value": "110%"
+        "$value": "110%",
+        "$description": "Tightest line height for compact text, large headings, or single-line elements"
       },
       "short": {
         "$type": "lineHeights",
-        "$value": "120%"
+        "$value": "120%",
+        "$description": "Tight line height for headings, labels, or compact text blocks"
       },
       "moderate": {
         "$type": "lineHeights",
-        "$value": "140%"
+        "$value": "140%",
+        "$description": "Moderate (default) line height for balanced readability in body text"
       },
       "tall": {
         "$type": "lineHeights",
-        "$value": "150%"
+        "$value": "150%",
+        "$description": "Tall line height for improved readability in longer paragraphs or content blocks"
       },
       "taller": {
         "$type": "lineHeights",
-        "$value": "180%"
+        "$value": "180%",
+        "$description": "Tallest line height for maximum readability in dense content or accessibility needs"
       }
     },
     "fontWeights": {
       "light": {
         "$type": "fontWeights",
-        "$value": "300"
+        "$value": "300",
+        "$description": "Light weight for subtle emphasis or elegant, refined typography"
       },
       "normal": {
         "$type": "fontWeights",
-        "$value": "400"
+        "$value": "400",
+        "$description": "Normal (default) weight for standard body text and regular content"
       },
       "medium": {
         "$type": "fontWeights",
-        "$value": "500"
+        "$value": "500",
+        "$description": "Medium weight for slight emphasis on labels, buttons, or subheadings"
       },
       "semibold": {
         "$type": "fontWeights",
-        "$value": "600"
+        "$value": "600",
+        "$description": "Semibold weight for strong emphasis on headings or important text"
       },
       "bold": {
         "$type": "fontWeights",
-        "$value": "700"
+        "$value": "700",
+        "$description": "Bold weight for prominent headings or high-contrast text elements"
       },
       "extrabold": {
         "$type": "fontWeights",
-        "$value": "800"
+        "$value": "800",
+        "$description": "Extra bold weight for dramatic headings or maximum visual impact"
       },
       "black": {
         "$type": "fontWeights",
-        "$value": "900"
+        "$value": "900",
+        "$description": "Black weight for the heaviest typography, used sparingly for maximum emphasis"
       }
     },
     "letterSpacings": {
       "tighter": {
         "$type": "letterSpacing",
         "$value": "-4%",
-        "$description": "Further reduced space between letters for an even more condensed look and feel"
+        "$description": "Tightest letter spacing for ultra-condensed text, large display headings, or bold typography"
       },
       "tight": {
         "$type": "letterSpacing",
         "$value": "-2%",
-        "$description": "Slightly reduced space between letters for a more condensed look and feel"
+        "$description": "Tight letter spacing for condensed headings, uppercase text, or compact typography"
       },
       "normal": {
         "$type": "letterSpacing",
         "$value": "0",
-        "$description": "Default letter spacing, this usually means 0, hence no change in the space between letters"
+        "$description": "Default letter spacing with no adjustment, used for standard body text and most content"
       },
       "wide": {
         "$type": "letterSpacing",
         "$value": "2%",
-        "$description": "Slightly increased space between letters for a more airy look and feel, often used on small font sizes to improve readability"
+        "$description": "Wide letter spacing for improved readability on small text, labels, or uppercase headings"
       },
       "wider": {
         "$type": "letterSpacing",
         "$value": "4%",
-        "$description": "Further increased space between letters for an even more airy look and feel, often used on very small font sizes to improve readability"
+        "$description": "Widest letter spacing for maximum readability on very small text, buttons, or accessibility needs"
       }
     },
     "font-families": {
       "serif": {
         "$type": "fontFamilies",
         "$value": "Playfair Display",
-        "$description": "A serif font family that can be used as an accent or contrast style mostly on marketing website and brand assets"
+        "$description": "Serif font family for accent typography and contrast on marketing websites and brand assets"
       },
       "sans-serif": {
         "$type": "fontFamilies",
         "$value": "Geist",
-        "$description": "A sans-serif font family that can be used across brand assets, marketing website and brand assets. Sans-serif font is mostly used for body text because it has a good readability especially on small font sizes. This can also be used for small headings on the actual product's user interface"
+        "$description": "Sans-serif font family optimized for readability, used for body text, UI headings, and brand assets"
       },
       "mono": {
         "$type": "fontFamilies",
-        "$value": "Geist Mono"
+        "$value": "Geist Mono",
+        "$description": "Monospace font family for code blocks, technical content, and data display"
       }
     },
     "fonts": {
       "body": {
         "$type": "fontFamilies",
         "$value": "{Typography.font-families.sans-serif}",
-        "$description": "Font family used for body text, both on marketing assets and websites, and on user interfaces"
+        "$description": "Font family for body text and paragraphs across marketing sites and product interfaces"
       },
       "heading": {
         "$type": "fontFamilies",
         "$value": "{Typography.font-families.sans-serif}",
-        "$description": "Font family used for headings in the product's user interface"
+        "$description": "Font family for headings and titles within the product's user interface"
       },
       "heading-brand": {
         "$type": "fontFamilies",
         "$value": "{Typography.font-families.sans-serif}",
-        "$description": "Font family used for headings used on marketing assets and website"
+        "$description": "Font family for headings and titles on marketing websites and brand assets"
       }
     },
     "fontSizes": {
       "3xs": {
         "$type": "fontSizes",
-        "$value": "0.625rem"
+        "$value": "0.625rem",
+        "$description": "Extra extra extra small size for captions, fine print, or compact labels"
       },
       "2xs": {
         "$type": "fontSizes",
-        "$value": "0.6875rem"
+        "$value": "0.6875rem",
+        "$description": "Extra extra small size for small captions, helper text, or tight spaces"
       },
       "xs": {
         "$type": "fontSizes",
-        "$value": "0.75rem"
+        "$value": "0.75rem",
+        "$description": "Extra small size for captions, metadata, or secondary information"
       },
       "sm": {
         "$type": "fontSizes",
-        "$value": "0.875rem"
+        "$value": "0.875rem",
+        "$description": "Small size for compact body text, labels, or UI elements"
       },
       "md": {
         "$type": "fontSizes",
-        "$value": "1rem"
+        "$value": "1rem",
+        "$description": "Medium (default) size for standard body text and regular content"
       },
       "lg": {
         "$type": "fontSizes",
-        "$value": "1.125rem"
+        "$value": "1.125rem",
+        "$description": "Large size for emphasized body text or small headings"
       },
       "xl": {
         "$type": "fontSizes",
-        "$value": "1.25rem"
+        "$value": "1.25rem",
+        "$description": "Extra large size for subheadings or prominent text"
       },
       "2xl": {
         "$type": "fontSizes",
-        "$value": "1.5rem"
+        "$value": "1.5rem",
+        "$description": "Extra extra large size for section headings or important titles"
       },
       "3xl": {
         "$type": "fontSizes",
-        "$value": "2rem"
+        "$value": "2rem",
+        "$description": "Extra extra extra large size for page headings or display text"
       },
       "4xl": {
         "$type": "fontSizes",
-        "$value": "2.5rem"
+        "$value": "2.5rem",
+        "$description": "Extra extra extra extra large size for hero headings or large display text"
       },
       "5xl": {
         "$type": "fontSizes",
-        "$value": "4rem"
+        "$value": "4rem",
+        "$description": "Extra extra extra extra extra large size for dramatic hero text or maximum impact"
       }
     }
   },
   "Duration": {
     "fastest": {
       "$type": "number",
-      "$value": 50
+      "$value": 50,
+      "$description": "Fastest speed for instant feedback and micro-interactions"
     },
     "faster": {
       "$type": "number",
-      "$value": 100
+      "$value": 100,
+      "$description": "Faster speed for quick transitions and hover effects"
     },
     "fast": {
       "$type": "number",
-      "$value": 150
+      "$value": 150,
+      "$description": "Fast speed for snappy transitions on interactive elements"
     },
     "normal": {
       "$type": "number",
-      "$value": 200
+      "$value": 200,
+      "$description": "Normal (default) speed for standard transitions and animations"
     },
     "slow": {
       "$type": "number",
-      "$value": 300
+      "$value": 300,
+      "$description": "Slow speed for more noticeable transitions and emphasis"
     },
     "slower": {
       "$type": "number",
-      "$value": 400
+      "$value": 400,
+      "$description": "Slower speed for deliberate transitions and prominent animations"
     },
     "slowest": {
       "$type": "number",
-      "$value": 500
+      "$value": 500,
+      "$description": "Slowest speed for very deliberate transitions and dramatic effects"
     }
   },
   "Radii": {
