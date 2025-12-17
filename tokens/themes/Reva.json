@@ -1,0 +1,992 @@
+{
+  "colors": {
+    "neutral": {
+      "1": {
+        "$type": "color",
+        "$value": "{colors.gray.1}",
+        "$description": "App background"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{colors.gray.2}",
+        "$description": "Subtle background"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{colors.gray.3}",
+        "$description": "UI element background"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{colors.gray.4}",
+        "$description": "Hovered UI element background"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{colors.gray.5}",
+        "$description": "Active / Selected UI element background"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{colors.gray.6}",
+        "$description": "Subtle borders and separators"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{colors.gray.7}",
+        "$description": "UI element border and focus rings"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{colors.gray.8}",
+        "$description": "Hovered UI element border"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{colors.gray.9}",
+        "$description": "Solid backgrounds"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{colors.gray.10}",
+        "$description": "Hovered solid backgrounds"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{colors.gray.11}",
+        "$description": "Low-contrast text"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{colors.gray.12}",
+        "$description": "High-contrast text"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{colors.gray.a1}",
+        "$description": "App background (alpha)"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{colors.gray.a2}",
+        "$description": "Subtle background (alpha)"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{colors.gray.a3}",
+        "$description": "UI element background (alpha)"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{colors.gray.a4}",
+        "$description": "Hovered UI element background (alpha)"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{colors.gray.a5}",
+        "$description": "Active / Selected UI element background (alpha)"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{colors.gray.a6}",
+        "$description": "Subtle borders and separators (alpha)"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{colors.gray.a7}",
+        "$description": "UI element border and focus rings (alpha)"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{colors.gray.a8}",
+        "$description": "Hovered UI element border (alpha)"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{colors.gray.a9}",
+        "$description": "Solid backgrounds (alpha)"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{colors.gray.a10}",
+        "$description": "Hovered solid backgrounds (alpha)"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{colors.gray.a11}",
+        "$description": "Low-contrast text (alpha)"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{colors.gray.a12}",
+        "$description": "High-contrast text (alpha)"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{colors.gray.contrast}",
+        "$description": "Contrast text color, often used on solid backgrounds"
+      },
+      "solid": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.neutral.12}",
+          "$description": "Background color for solid variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.neutral.11}",
+          "$description": "Background color for hover state in solid variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.12}",
+          "$description": "Background color for active state in solid variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.contrast}",
+          "$description": "Foreground color for text and icons on solid background"
+        }
+      },
+      "soft": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for soft variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.neutral.a4}",
+          "$description": "Background color for hover state in soft variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.a5}",
+          "$description": "Background color for active state in soft variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in soft variant"
+        }
+      },
+      "outline": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.misc.transparent}",
+          "$description": "Background color for outline variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in outline variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in outline variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in outline variant"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{colors.neutral.a7}",
+          "$description": "Border color for outline variant"
+        }
+      },
+      "subtle": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.misc.transparent}",
+          "$description": "Background color for subtle variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in subtle variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in subtle variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in subtle variant"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{colors.neutral.a3}",
+          "$description": "Border color for subtle variant"
+        }
+      },
+      "ghost": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.misc.transparent}",
+          "$description": "Background color for ghost variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.neutral.a2}",
+          "$description": "Background color for hover state in ghost variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.neutral.a3}",
+          "$description": "Background color for active state in ghost variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.neutral.a12}",
+          "$description": "Foreground color for text and icons in ghost variant"
+        }
+      }
+    },
+    "accent": {
+      "1": {
+        "$type": "color",
+        "$value": "{colors.gold.1}",
+        "$description": "App background"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{colors.gold.2}",
+        "$description": "Subtle background"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{colors.gold.3}",
+        "$description": "UI element background"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{colors.gold.4}",
+        "$description": "Hovered UI element background"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{colors.gold.5}",
+        "$description": "Active / Selected UI element background"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{colors.gold.6}",
+        "$description": "Subtle borders and separators"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{colors.gold.7}",
+        "$description": "UI element border and focus rings"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{colors.gold.8}",
+        "$description": "Hovered UI element border"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{colors.gold.9}",
+        "$description": "Solid backgrounds"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{colors.gold.10}",
+        "$description": "Hovered solid backgrounds"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{colors.gold.11}",
+        "$description": "Low-contrast text"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{colors.gold.12}",
+        "$description": "High-contrast text"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{colors.gold.a1}",
+        "$description": "App background (alpha)"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "{colors.gold.a2}",
+        "$description": "Subtle background (alpha)"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "{colors.gold.a3}",
+        "$description": "UI element background (alpha)"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "{colors.gold.a4}",
+        "$description": "Hovered UI element background (alpha)"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "{colors.gold.a5}",
+        "$description": "Active / Selected UI element background (alpha)"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "{colors.gold.a6}",
+        "$description": "Subtle borders and separators (alpha)"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "{colors.gold.a7}",
+        "$description": "UI element border and focus rings (alpha)"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "{colors.gold.a8}",
+        "$description": "Hovered UI element border (alpha)"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "{colors.gold.a9}",
+        "$description": "Solid backgrounds (alpha)"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "{colors.gold.a10}",
+        "$description": "Hovered solid backgrounds (alpha)"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "{colors.gold.a11}",
+        "$description": "Low-contrast text (alpha)"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "{colors.gold.a12}",
+        "$description": "High-contrast text (alpha)"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{colors.gold.contrast}",
+        "$description": "Contrast text color, often used on solid backgrounds"
+      },
+      "solid": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.accent.9}",
+          "$description": "Background color for solid variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.accent.10}",
+          "$description": "Background color for hover state in solid variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.accent.9}",
+          "$description": "Background color for active state in solid variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.contrast}",
+          "$description": "Foreground color for text and icons on solid background"
+        }
+      },
+      "soft": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for soft variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.accent.a4}",
+          "$description": "Background color for hover state in soft variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.accent.a5}",
+          "$description": "Background color for active state in soft variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in soft variant"
+        }
+      },
+      "outline": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.misc.transparent}",
+          "$description": "Background color for outline variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in outline variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in outline variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in outline variant"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{colors.accent.a7}",
+          "$description": "Border color for outline variant"
+        }
+      },
+      "subtle": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.misc.transparent}",
+          "$description": "Background color for subtle variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in subtle variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in subtle variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in subtle variant"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Border color for subtle variant"
+        }
+      },
+      "ghost": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.misc.transparent}",
+          "$description": "Background color for ghost variant"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{colors.accent.a2}",
+          "$description": "Background color for hover state in ghost variant"
+        },
+        "bg-active": {
+          "$type": "color",
+          "$value": "{colors.accent.a3}",
+          "$description": "Background color for active state in ghost variant"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{colors.accent.a11}",
+          "$description": "Foreground color for text and icons in ghost variant"
+        }
+      }
+    },
+    "foreground": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.gray.12}",
+        "$description": "Default foreground color for primary text and icons"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{colors.gray.11}",
+        "$description": "Muted foreground color for secondary text and icons"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{colors.gray.10}",
+        "$description": "Subtle foreground color for tertiary text and icons"
+      }
+    }
+  },
+  "spacing": {
+    "3xs": {
+      "$type": "dimension",
+      "$value": "0.125rem",
+      "$description": "Extra extra extra small spacing for tight gaps between closely related elements"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "0.25rem",
+      "$description": "Extra extra small spacing for minimal gaps between compact UI elements"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "0.5rem",
+      "$description": "Extra small spacing for tight padding or small gaps between elements"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "0.75rem",
+      "$description": "Small spacing for compact padding or tight margins on UI components"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "1rem",
+      "$description": "Medium (default) spacing for standard padding, margins, and gaps"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1.5rem",
+      "$description": "Large spacing for comfortable padding or noticeable gaps between sections"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "2rem",
+      "$description": "Extra large spacing for generous padding or clear separation between major sections"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "2.5rem",
+      "$description": "Extra extra large spacing for substantial padding or prominent section separation"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "3rem",
+      "$description": "Extra extra extra large spacing for generous padding or major layout sections"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "4rem",
+      "$description": "Extra extra extra extra large spacing for maximum padding or hero section spacing"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "5rem",
+      "$description": "Extra extra extra extra extra large spacing for dramatic spacing or maximum visual breathing room"
+    }
+  },
+  "typography": {
+    "line-heights": {
+      "shorter": {
+        "$type": "lineHeights",
+        "$value": "110%",
+        "$description": "Tightest line height for compact text, large headings, or single-line elements"
+      },
+      "short": {
+        "$type": "lineHeights",
+        "$value": "120%",
+        "$description": "Tight line height for headings, labels, or compact text blocks"
+      },
+      "moderate": {
+        "$type": "lineHeights",
+        "$value": "140%",
+        "$description": "Moderate (default) line height for balanced readability in body text"
+      },
+      "tall": {
+        "$type": "lineHeights",
+        "$value": "150%",
+        "$description": "Tall line height for improved readability in longer paragraphs or content blocks"
+      },
+      "taller": {
+        "$type": "lineHeights",
+        "$value": "180%",
+        "$description": "Tallest line height for maximum readability in dense content or accessibility needs"
+      }
+    },
+    "font-weights": {
+      "light": {
+        "$type": "fontWeights",
+        "$value": "300",
+        "$description": "Light weight for subtle emphasis or elegant, refined typography"
+      },
+      "normal": {
+        "$type": "fontWeights",
+        "$value": "400",
+        "$description": "Normal (default) weight for standard body text and regular content"
+      },
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "500",
+        "$description": "Medium weight for slight emphasis on labels, buttons, or subheadings"
+      },
+      "semibold": {
+        "$type": "fontWeights",
+        "$value": "600",
+        "$description": "Semibold weight for strong emphasis on headings or important text"
+      },
+      "bold": {
+        "$type": "fontWeights",
+        "$value": "700",
+        "$description": "Bold weight for prominent headings or high-contrast text elements"
+      },
+      "extrabold": {
+        "$type": "fontWeights",
+        "$value": "800",
+        "$description": "Extra bold weight for dramatic headings or maximum visual impact"
+      },
+      "black": {
+        "$type": "fontWeights",
+        "$value": "900",
+        "$description": "Black weight for the heaviest typography, used sparingly for maximum emphasis"
+      }
+    },
+    "letter-spacings": {
+      "tighter": {
+        "$type": "letterSpacing",
+        "$value": "-4%",
+        "$description": "Tightest letter spacing for ultra-condensed text, large display headings, or bold typography"
+      },
+      "tight": {
+        "$type": "letterSpacing",
+        "$value": "-2%",
+        "$description": "Tight letter spacing for condensed headings, uppercase text, or compact typography"
+      },
+      "normal": {
+        "$type": "letterSpacing",
+        "$value": "0",
+        "$description": "Default letter spacing with no adjustment, used for standard body text and most content"
+      },
+      "wide": {
+        "$type": "letterSpacing",
+        "$value": "2%",
+        "$description": "Wide letter spacing for improved readability on small text, labels, or uppercase headings"
+      },
+      "wider": {
+        "$type": "letterSpacing",
+        "$value": "4%",
+        "$description": "Widest letter spacing for maximum readability on very small text, buttons, or accessibility needs"
+      }
+    },
+    "font-families": {
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Playfair Display",
+        "$description": "Serif font family for accent typography and contrast on marketing websites and brand assets"
+      },
+      "sans-serif": {
+        "$type": "fontFamilies",
+        "$value": "Geist",
+        "$description": "Sans-serif font family optimized for readability, used for body text, UI headings, and brand assets"
+      },
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Geist Mono",
+        "$description": "Monospace font family for code blocks, technical content, and data display"
+      }
+    },
+    "fonts": {
+      "body": {
+        "$type": "fontFamilies",
+        "$value": "{typography.font-families.sans-serif}",
+        "$description": "Font family for body text and paragraphs across marketing sites and product interfaces"
+      },
+      "heading": {
+        "$type": "fontFamilies",
+        "$value": "{typography.font-families.sans-serif}",
+        "$description": "Font family for headings and titles within the product's user interface"
+      },
+      "heading-brand": {
+        "$type": "fontFamilies",
+        "$value": "{typography.font-families.sans-serif}",
+        "$description": "Font family for headings and titles on marketing websites and brand assets"
+      }
+    },
+    "font-sizes": {
+      "3xs": {
+        "$type": "fontSizes",
+        "$value": "0.625rem",
+        "$description": "Extra extra extra small size for captions, fine print, or compact labels"
+      },
+      "2xs": {
+        "$type": "fontSizes",
+        "$value": "0.6875rem",
+        "$description": "Extra extra small size for small captions, helper text, or tight spaces"
+      },
+      "xs": {
+        "$type": "fontSizes",
+        "$value": "0.75rem",
+        "$description": "Extra small size for captions, metadata, or secondary information"
+      },
+      "sm": {
+        "$type": "fontSizes",
+        "$value": "0.875rem",
+        "$description": "Small size for compact body text, labels, or UI elements"
+      },
+      "md": {
+        "$type": "fontSizes",
+        "$value": "1rem",
+        "$description": "Medium (default) size for standard body text and regular content"
+      },
+      "lg": {
+        "$type": "fontSizes",
+        "$value": "1.125rem",
+        "$description": "Large size for emphasized body text or small headings"
+      },
+      "xl": {
+        "$type": "fontSizes",
+        "$value": "1.25rem",
+        "$description": "Extra large size for subheadings or prominent text"
+      },
+      "2xl": {
+        "$type": "fontSizes",
+        "$value": "1.5rem",
+        "$description": "Extra extra large size for section headings or important titles"
+      },
+      "3xl": {
+        "$type": "fontSizes",
+        "$value": "2rem",
+        "$description": "Extra extra extra large size for page headings or display text"
+      },
+      "4xl": {
+        "$type": "fontSizes",
+        "$value": "2.5rem",
+        "$description": "Extra extra extra extra large size for hero headings or large display text"
+      },
+      "5xl": {
+        "$type": "fontSizes",
+        "$value": "4rem",
+        "$description": "Extra extra extra extra extra large size for dramatic hero text or maximum impact"
+      }
+    }
+  },
+  "radii": {
+    "none": {
+      "$type": "borderRadius",
+      "$value": "0",
+      "$description": "No border radius for square elements"
+    },
+    "xs": {
+      "$type": "borderRadius",
+      "$value": "0.1875rem",
+      "$description": "Extra small radius for subtle rounding on small elements"
+    },
+    "sm": {
+      "$type": "borderRadius",
+      "$value": "0.25rem",
+      "$description": "Small radius for gentle rounding on compact components"
+    },
+    "md": {
+      "$type": "borderRadius",
+      "$value": "0.375rem",
+      "$description": "Medium radius for standard rounding on most UI elements"
+    },
+    "lg": {
+      "$type": "borderRadius",
+      "$value": "0.5rem",
+      "$description": "Large radius for noticeable rounding on prominent components"
+    },
+    "xl": {
+      "$type": "borderRadius",
+      "$value": "0.75rem",
+      "$description": "Extra large radius for prominent rounding on large elements"
+    },
+    "2xl": {
+      "$type": "borderRadius",
+      "$value": "1rem",
+      "$description": "Very large radius for strong rounding on containers and cards"
+    },
+    "3xl": {
+      "$type": "borderRadius",
+      "$value": "1.5rem",
+      "$description": "Extra extra large radius for very strong rounding on large containers"
+    },
+    "4xl": {
+      "$type": "borderRadius",
+      "$value": "2rem",
+      "$description": "Maximum radius for extremely strong rounding before full circle"
+    },
+    "full": {
+      "$type": "borderRadius",
+      "$value": "9999px",
+      "$description": "Full circle or pill shape for maximum rounding, typically used for badges and buttons"
+    }
+  },
+  "shadows": {
+    "xs": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0.5px",
+          "color": "{colors.default.black.a1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "1px",
+          "spread": "0",
+          "color": "{colors.gray.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2px",
+          "blur": "1px",
+          "spread": "-1px",
+          "color": "{colors.default.black.a1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1px",
+          "blur": "3px",
+          "spread": "0",
+          "color": "{colors.default.black.a1}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Extra small shadow for subtle depth on UI elements such as cards"
+    },
+    "sm": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2px",
+          "blur": "3px",
+          "spread": "-2px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3px",
+          "blur": "12px",
+          "spread": "-4px",
+          "color": "{colors.default.black.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4px",
+          "blur": "16px",
+          "spread": "-8px",
+          "color": "{colors.default.black.a2}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Small shadow for depth on UI elements such as cards"
+    },
+    "md": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8px",
+          "blur": "40px",
+          "spread": "0",
+          "color": "{colors.default.black.a1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "32px",
+          "spread": "-16px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Medium shadow for small overlay panels like hover cards and popovers"
+    },
+    "lg": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "60px",
+          "spread": "0",
+          "color": "{colors.default.black.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "32px",
+          "spread": "-16px",
+          "color": "{colors.gray.a5}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Large shadow for small overlay panels like hover cards and popovers"
+    },
+    "xl": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "{colors.gray.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12px",
+          "blur": "60px",
+          "spread": "0",
+          "color": "{colors.default.black.a3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16px",
+          "blur": "64px",
+          "spread": "0",
+          "color": "{colors.gray.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16px",
+          "blur": "36px",
+          "spread": "-20px",
+          "color": "{colors.gray.a7}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Extra large shadow for larger overlay panels like dialogs"
+    }
+  }
+}
