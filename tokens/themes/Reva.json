@@ -988,5 +988,11 @@
       ],
       "$description": "Extra large shadow for larger overlay panels like dialogs"
     }
+  },
+  "opacity": {
+    "disabled": {
+      "$type": "opacity",
+      "$value": "0.3"
+    }
   }
 }
