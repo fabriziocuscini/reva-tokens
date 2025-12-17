@@ -1,6 +1,6 @@
 {
-  "Colors": {
-    "Gray": {
+  "colors": {
+    "gray": {
       "1": {
         "$type": "color",
         "$value": "#fcfcfc"
@@ -102,7 +102,7 @@
         "$value": "#ffffff"
       }
     },
-    "Sand": {
+    "sand": {
       "1": {
         "$type": "color",
         "$value": "#fdfdfc"
@@ -204,109 +204,7 @@
         "$value": "#ffffff"
       }
     },
-    "Amber": {
-      "1": {
-        "$type": "color",
-        "$value": "#fefdfb"
-      },
-      "2": {
-        "$type": "color",
-        "$value": "#fefbe9"
-      },
-      "3": {
-        "$type": "color",
-        "$value": "#fff7c2"
-      },
-      "4": {
-        "$type": "color",
-        "$value": "#ffee9c"
-      },
-      "5": {
-        "$type": "color",
-        "$value": "#fbe577"
-      },
-      "6": {
-        "$type": "color",
-        "$value": "#f3d673"
-      },
-      "7": {
-        "$type": "color",
-        "$value": "#e9c162"
-      },
-      "8": {
-        "$type": "color",
-        "$value": "#e2a336"
-      },
-      "9": {
-        "$type": "color",
-        "$value": "#ffc53d"
-      },
-      "10": {
-        "$type": "color",
-        "$value": "#ffba18"
-      },
-      "11": {
-        "$type": "color",
-        "$value": "#ab6400"
-      },
-      "12": {
-        "$type": "color",
-        "$value": "#4f3422"
-      },
-      "a12": {
-        "$type": "color",
-        "$value": "#341500de"
-      },
-      "a11": {
-        "$type": "color",
-        "$value": "#ab6400"
-      },
-      "a9": {
-        "$type": "color",
-        "$value": "#ffb300c2"
-      },
-      "a8": {
-        "$type": "color",
-        "$value": "#da8a00c9"
-      },
-      "a5": {
-        "$type": "color",
-        "$value": "#f8cf0087"
-      },
-      "a7": {
-        "$type": "color",
-        "$value": "#dc9b009e"
-      },
-      "a3": {
-        "$type": "color",
-        "$value": "#ffde003d"
-      },
-      "a4": {
-        "$type": "color",
-        "$value": "#ffd40063"
-      },
-      "a2": {
-        "$type": "color",
-        "$value": "#f4d10017"
-      },
-      "a1": {
-        "$type": "color",
-        "$value": "#c0800005"
-      },
-      "a6": {
-        "$type": "color",
-        "$value": "#eab5008c"
-      },
-      "a10": {
-        "$type": "color",
-        "$value": "#ffb300e8"
-      },
-      "contrast": {
-        "$type": "color",
-        "$value": "#2b2009"
-      }
-    },
-    "Grass": {
+    "grass": {
       "1": {
         "$type": "color",
         "$value": "#fbfefb"
@@ -408,7 +306,7 @@
         "$value": "#ffffff"
       }
     },
-    "Gold": {
+    "gold": {
       "1": {
         "$type": "color",
         "$value": "#fcfaf8"
@@ -510,7 +408,7 @@
         "$value": "#fff"
       }
     },
-    "Tomato": {
+    "tomato": {
       "1": {
         "$type": "color",
         "$value": "#fffcfc"
@@ -612,7 +510,7 @@
         "$value": "#ffffff"
       }
     },
-    "Blue": {
+    "blue": {
       "1": {
         "$type": "color",
         "$value": "#fbfdff"
@@ -713,74 +611,18 @@
         "$type": "color",
         "$value": "#ffffff"
       }
+    }
+  },
+  "global": {
+    "transparent": {
+      "$type": "color",
+      "$value": "#ffffff00"
     },
-    "Default": {
-      "transparent": {
-        "$type": "color",
-        "$value": "#ffffff00"
-      },
-      "white": {
+    "white": {
+      "default": {
         "$type": "color",
         "$value": "#ffffff"
       },
-      "black": {
-        "$type": "color",
-        "$value": "#1c2024"
-      }
-    }
-  },
-  "Overlays": {
-    "Black": {
-      "a9": {
-        "$type": "color",
-        "$value": "#000000b3"
-      },
-      "a8": {
-        "$type": "color",
-        "$value": "#00000099"
-      },
-      "a7": {
-        "$type": "color",
-        "$value": "#00000080"
-      },
-      "a3": {
-        "$type": "color",
-        "$value": "#00000026"
-      },
-      "a10": {
-        "$type": "color",
-        "$value": "#000000cc"
-      },
-      "a4": {
-        "$type": "color",
-        "$value": "#00000033"
-      },
-      "a6": {
-        "$type": "color",
-        "$value": "#00000066"
-      },
-      "a1": {
-        "$type": "color",
-        "$value": "#0000000d"
-      },
-      "a12": {
-        "$type": "color",
-        "$value": "#000000f2"
-      },
-      "a11": {
-        "$type": "color",
-        "$value": "#000000e6"
-      },
-      "a5": {
-        "$type": "color",
-        "$value": "#0000004d"
-      },
-      "a2": {
-        "$type": "color",
-        "$value": "#0000001a"
-      }
-    },
-    "White": {
       "a11": {
         "$type": "color",
         "$value": "#ffffffe6"
@@ -829,25 +671,81 @@
         "$type": "color",
         "$value": "#ffffff0d"
       }
+    },
+    "black": {
+      "default": {
+        "$type": "color",
+        "$value": "#1c2024"
+      },
+      "a9": {
+        "$type": "color",
+        "$value": "#000000b3"
+      },
+      "a8": {
+        "$type": "color",
+        "$value": "#00000099"
+      },
+      "a7": {
+        "$type": "color",
+        "$value": "#00000080"
+      },
+      "a3": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "a10": {
+        "$type": "color",
+        "$value": "#000000cc"
+      },
+      "a4": {
+        "$type": "color",
+        "$value": "#00000033"
+      },
+      "a6": {
+        "$type": "color",
+        "$value": "#00000066"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "#0000000d"
+      },
+      "a12": {
+        "$type": "color",
+        "$value": "#000000f2"
+      },
+      "a11": {
+        "$type": "color",
+        "$value": "#000000e6"
+      },
+      "a5": {
+        "$type": "color",
+        "$value": "#0000004d"
+      },
+      "a2": {
+        "$type": "color",
+        "$value": "#0000001a"
+      }
     }
   },
-  "Misc": {
+  "misc": {
     "backdrop": {
       "$type": "color",
-      "$value": "{Overlays.Black.a5}"
+      "$value": "{global.black.a5}"
     },
     "dark-to-white": {
       "$type": "color",
-      "$value": "{Colors.Gray.12}"
+      "$value": "{colors.gray.12}"
     },
     "white-to-dark-2": {
       "$type": "color",
-      "$value": "{Overlays.White.a11}"
+      "$value": "{global.white.a11}"
     },
     "white-to-dark": {
       "$type": "color",
-      "$value": "{Colors.Default.white}"
-    },
+      "$value": "{global.white.default}"
+    }
+  },
+  "Misc": {
     "light-mode": {
       "$type": "boolean",
       "$value": "true",

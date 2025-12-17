@@ -1,417 +1,417 @@
 {
-  "Colors": {
-    "Neutral": {
+  "colors": {
+    "neutral": {
       "1": {
         "$type": "color",
-        "$value": "{Colors.Gray.1}"
+        "$value": "{colors.gray.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{Colors.Gray.2}"
+        "$value": "{colors.gray.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{Colors.Gray.3}"
+        "$value": "{colors.gray.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{Colors.Gray.4}"
+        "$value": "{colors.gray.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{Colors.Gray.5}"
+        "$value": "{colors.gray.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{Colors.Gray.6}"
+        "$value": "{colors.gray.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{Colors.Gray.7}"
+        "$value": "{colors.gray.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{Colors.Gray.8}"
+        "$value": "{colors.gray.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{Colors.Gray.9}"
+        "$value": "{colors.gray.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{Colors.Gray.10}"
+        "$value": "{colors.gray.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{Colors.Gray.11}"
+        "$value": "{colors.gray.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{Colors.Gray.12}"
+        "$value": "{colors.gray.12}"
       },
       "a1": {
         "$type": "color",
-        "$value": "{Colors.Gray.a1}"
+        "$value": "{colors.gray.a1}"
       },
       "a2": {
         "$type": "color",
-        "$value": "{Colors.Gray.a2}"
+        "$value": "{colors.gray.a2}"
       },
       "a3": {
         "$type": "color",
-        "$value": "{Colors.Gray.a3}"
+        "$value": "{colors.gray.a3}"
       },
       "a4": {
         "$type": "color",
-        "$value": "{Colors.Gray.a4}"
+        "$value": "{colors.gray.a4}"
       },
       "a5": {
         "$type": "color",
-        "$value": "{Colors.Gray.a5}"
+        "$value": "{colors.gray.a5}"
       },
       "a6": {
         "$type": "color",
-        "$value": "{Colors.Gray.a6}"
+        "$value": "{colors.gray.a6}"
       },
       "a7": {
         "$type": "color",
-        "$value": "{Colors.Gray.a7}"
+        "$value": "{colors.gray.a7}"
       },
       "a8": {
         "$type": "color",
-        "$value": "{Colors.Gray.a8}"
+        "$value": "{colors.gray.a8}"
       },
       "a9": {
         "$type": "color",
-        "$value": "{Colors.Gray.a9}"
+        "$value": "{colors.gray.a9}"
       },
       "a10": {
         "$type": "color",
-        "$value": "{Colors.Gray.a10}"
+        "$value": "{colors.gray.a10}"
       },
       "a11": {
         "$type": "color",
-        "$value": "{Colors.Gray.a11}"
+        "$value": "{colors.gray.a11}"
       },
       "a12": {
         "$type": "color",
-        "$value": "{Colors.Gray.a12}"
+        "$value": "{colors.gray.a12}"
       },
       "contrast": {
         "$type": "color",
-        "$value": "{Colors.Gray.contrast}"
+        "$value": "{colors.gray.contrast}"
       },
       "solid": {
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.contrast}"
+          "$value": "{colors.neutral.contrast}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Neutral.12}"
+          "$value": "{colors.neutral.12}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Neutral.11}"
+          "$value": "{colors.neutral.11}"
         },
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.12}"
+          "$value": "{colors.neutral.12}"
         }
       },
       "soft": {
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a5}"
+          "$value": "{colors.neutral.a5}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a4}"
+          "$value": "{colors.neutral.a4}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a12}"
+          "$value": "{colors.neutral.a12}"
         },
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a3}"
+          "$value": "{colors.neutral.a3}"
         }
       },
       "outline": {
         "border": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a7}"
+          "$value": "{colors.neutral.a7}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a12}"
+          "$value": "{colors.neutral.a12}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a3}"
+          "$value": "{colors.neutral.a3}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a2}"
+          "$value": "{colors.neutral.a2}"
         },
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Default.transparent}"
+          "$value": "{global.transparent}"
         }
       },
       "ghost": {
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a12}"
+          "$value": "{colors.neutral.a12}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a3}"
+          "$value": "{colors.neutral.a3}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a2}"
+          "$value": "{colors.neutral.a2}"
         },
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Default.transparent}"
+          "$value": "{global.transparent}"
         }
       },
       "subtle": {
         "border": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a3}"
+          "$value": "{colors.neutral.a3}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a3}"
+          "$value": "{colors.neutral.a3}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a12}"
+          "$value": "{colors.neutral.a12}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Neutral.a2}"
+          "$value": "{colors.neutral.a2}"
         },
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Default.transparent}"
+          "$value": "{global.transparent}"
         }
       }
     },
-    "Accent": {
+    "accent": {
       "1": {
         "$type": "color",
-        "$value": "{Colors.Gold.1}"
+        "$value": "{colors.gold.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{Colors.Gold.2}"
+        "$value": "{colors.gold.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{Colors.Gold.3}"
+        "$value": "{colors.gold.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{Colors.Gold.4}"
+        "$value": "{colors.gold.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{Colors.Gold.5}"
+        "$value": "{colors.gold.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{Colors.Gold.6}"
+        "$value": "{colors.gold.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{Colors.Gold.7}"
+        "$value": "{colors.gold.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{Colors.Gold.8}"
+        "$value": "{colors.gold.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{Colors.Gold.9}"
+        "$value": "{colors.gold.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{Colors.Gold.10}"
+        "$value": "{colors.gold.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{Colors.Gold.11}"
+        "$value": "{colors.gold.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{Colors.Gold.12}"
+        "$value": "{colors.gold.12}"
       },
       "a1": {
         "$type": "color",
-        "$value": "{Colors.Gold.a1}"
+        "$value": "{colors.gold.a1}"
       },
       "a2": {
         "$type": "color",
-        "$value": "{Colors.Gold.a2}"
+        "$value": "{colors.gold.a2}"
       },
       "a3": {
         "$type": "color",
-        "$value": "{Colors.Gold.a3}"
+        "$value": "{colors.gold.a3}"
       },
       "a4": {
         "$type": "color",
-        "$value": "{Colors.Gold.a4}"
+        "$value": "{colors.gold.a4}"
       },
       "a5": {
         "$type": "color",
-        "$value": "{Colors.Gold.a5}"
+        "$value": "{colors.gold.a5}"
       },
       "a6": {
         "$type": "color",
-        "$value": "{Colors.Gold.a6}"
+        "$value": "{colors.gold.a6}"
       },
       "a7": {
         "$type": "color",
-        "$value": "{Colors.Gold.a7}"
+        "$value": "{colors.gold.a7}"
       },
       "a8": {
         "$type": "color",
-        "$value": "{Colors.Gold.a8}"
+        "$value": "{colors.gold.a8}"
       },
       "a9": {
         "$type": "color",
-        "$value": "{Colors.Gold.a9}"
+        "$value": "{colors.gold.a9}"
       },
       "a10": {
         "$type": "color",
-        "$value": "{Colors.Gold.a10}"
+        "$value": "{colors.gold.a10}"
       },
       "a11": {
         "$type": "color",
-        "$value": "{Colors.Gold.a11}"
+        "$value": "{colors.gold.a11}"
       },
       "a12": {
         "$type": "color",
-        "$value": "{Colors.Gold.a12}"
+        "$value": "{colors.gold.a12}"
       },
       "contrast": {
         "$type": "color",
-        "$value": "{Colors.Gold.contrast}"
+        "$value": "{colors.gold.contrast}"
       },
       "solid": {
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Accent.9}"
+          "$value": "{colors.accent.9}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Accent.10}"
+          "$value": "{colors.accent.10}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Accent.contrast}"
+          "$value": "{colors.accent.contrast}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Accent.9}"
+          "$value": "{colors.accent.9}"
         }
       },
       "soft": {
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Accent.a3}"
+          "$value": "{colors.accent.a3}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Accent.a4}"
+          "$value": "{colors.accent.a4}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Accent.a5}"
+          "$value": "{colors.accent.a5}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Accent.a11}"
+          "$value": "{colors.accent.a11}"
         }
       },
       "outline": {
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Default.transparent}"
+          "$value": "{global.transparent}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Accent.a2}"
+          "$value": "{colors.accent.a2}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Accent.a3}"
+          "$value": "{colors.accent.a3}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Accent.a11}"
+          "$value": "{colors.accent.a11}"
         },
         "border": {
           "$type": "color",
-          "$value": "{Colors.Accent.a7}"
+          "$value": "{colors.accent.a7}"
         }
       },
       "ghost": {
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Default.transparent}"
+          "$value": "{global.transparent}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Accent.a2}"
+          "$value": "{colors.accent.a2}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Accent.a3}"
+          "$value": "{colors.accent.a3}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Accent.a11}"
+          "$value": "{colors.accent.a11}"
         }
       },
       "subtle": {
         "bg": {
           "$type": "color",
-          "$value": "{Colors.Default.transparent}"
+          "$value": "{global.transparent}"
         },
         "bg:hover": {
           "$type": "color",
-          "$value": "{Colors.Accent.a2}"
+          "$value": "{colors.accent.a2}"
         },
         "bg:active": {
           "$type": "color",
-          "$value": "{Colors.Accent.a3}"
+          "$value": "{colors.accent.a3}"
         },
         "border": {
           "$type": "color",
-          "$value": "{Colors.Accent.a3}"
+          "$value": "{colors.accent.a3}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{Colors.Accent.a11}"
+          "$value": "{colors.accent.a11}"
         }
       }
     },
-    "Foreground": {
+    "foreground": {
       "default": {
         "$type": "color",
-        "$value": "{Colors.Gray.12}"
+        "$value": "{colors.gray.12}"
       },
       "muted": {
         "$type": "color",
-        "$value": "{Colors.Gray.11}"
+        "$value": "{colors.gray.11}"
       },
       "subtle": {
         "$type": "color",
-        "$value": "{Colors.Gray.10}"
+        "$value": "{colors.gray.10}"
       }
     }
   },
@@ -733,37 +733,37 @@
   "Duration": {
     "fastest": {
       "$type": "number",
-      "$value": 50,
+      "$value": "50",
       "$description": "Fastest speed for instant feedback and micro-interactions"
     },
     "faster": {
       "$type": "number",
-      "$value": 100,
+      "$value": "100",
       "$description": "Faster speed for quick transitions and hover effects"
     },
     "fast": {
       "$type": "number",
-      "$value": 150,
+      "$value": "150",
       "$description": "Fast speed for snappy transitions on interactive elements"
     },
     "normal": {
       "$type": "number",
-      "$value": 200,
+      "$value": "200",
       "$description": "Normal (default) speed for standard transitions and animations"
     },
     "slow": {
       "$type": "number",
-      "$value": 300,
+      "$value": "300",
       "$description": "Slow speed for more noticeable transitions and emphasis"
     },
     "slower": {
       "$type": "number",
-      "$value": 400,
+      "$value": "400",
       "$description": "Slower speed for deliberate transitions and prominent animations"
     },
     "slowest": {
       "$type": "number",
-      "$value": 500,
+      "$value": "500",
       "$description": "Slowest speed for very deliberate transitions and dramatic effects"
     }
   },
@@ -828,7 +828,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1px",
-          "color": "{Colors.Gray.a3}",
+          "color": "{colors.gray.a3}",
           "type": "dropShadow"
         },
         {
@@ -836,7 +836,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.5px",
-          "color": "{Overlays.Black.a1}",
+          "color": "{global.black.a1}",
           "type": "dropShadow"
         },
         {
@@ -844,7 +844,7 @@
           "y": "1px",
           "blur": "1px",
           "spread": "0",
-          "color": "{Colors.Gray.a2}",
+          "color": "{colors.gray.a2}",
           "type": "dropShadow"
         },
         {
@@ -852,7 +852,7 @@
           "y": "2px",
           "blur": "1px",
           "spread": "-1px",
-          "color": "{Overlays.Black.a1}",
+          "color": "{global.black.a1}",
           "type": "innerShadow"
         },
         {
@@ -860,7 +860,7 @@
           "y": "1px",
           "blur": "3px",
           "spread": "0",
-          "color": "{Overlays.Black.a1}",
+          "color": "{global.black.a1}",
           "type": "innerShadow"
         }
       ],
