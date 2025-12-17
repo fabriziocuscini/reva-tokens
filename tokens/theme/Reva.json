@@ -106,11 +106,11 @@
           "$type": "color",
           "$value": "{colors.neutral.contrast}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.12}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.11}"
         },
@@ -120,11 +120,11 @@
         }
       },
       "soft": {
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.a5}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a4}"
         },
@@ -146,11 +146,11 @@
           "$type": "color",
           "$value": "{colors.neutral.a12}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.a3}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a2}"
         },
@@ -164,11 +164,11 @@
           "$type": "color",
           "$value": "{colors.neutral.a12}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.a3}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a2}"
         },
@@ -182,7 +182,7 @@
           "$type": "color",
           "$value": "{colors.neutral.a3}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.neutral.a3}"
         },
@@ -190,7 +190,7 @@
           "$type": "color",
           "$value": "{colors.neutral.a12}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.neutral.a2}"
         },
@@ -306,7 +306,7 @@
           "$type": "color",
           "$value": "{colors.accent.9}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.accent.10}"
         },
@@ -314,7 +314,7 @@
           "$type": "color",
           "$value": "{colors.accent.contrast}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.accent.9}"
         }
@@ -324,11 +324,11 @@
           "$type": "color",
           "$value": "{colors.accent.a3}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.accent.a4}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.accent.a5}"
         },
@@ -342,11 +342,11 @@
           "$type": "color",
           "$value": "{global.transparent}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.accent.a2}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.accent.a3}"
         },
@@ -364,11 +364,11 @@
           "$type": "color",
           "$value": "{global.transparent}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.accent.a2}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.accent.a3}"
         },
@@ -382,11 +382,11 @@
           "$type": "color",
           "$value": "{global.transparent}"
         },
-        "bg:hover": {
+        "bg-hover": {
           "$type": "color",
           "$value": "{colors.accent.a2}"
         },
-        "bg:active": {
+        "bg-active": {
           "$type": "color",
           "$value": "{colors.accent.a3}"
         },
@@ -415,7 +415,7 @@
       }
     }
   },
-  "Breakpoints": {
+  "breakpoints": {
     "initial": {
       "$type": "dimension",
       "$value": "0rem",
@@ -457,7 +457,7 @@
       "$description": "Displays with 4K Ultra HD resolution (3840x2160)"
     }
   },
-  "Spacing": {
+  "spacing": {
     "3xs": {
       "$type": "dimension",
       "$value": "0.125rem",
@@ -514,7 +514,7 @@
       "$description": "Extra extra extra extra extra large spacing for dramatic spacing or maximum visual breathing room"
     }
   },
-  "Blurs": {
+  "blurs": {
     "none": {
       "$type": "dimension",
       "$value": "0px",
@@ -546,8 +546,8 @@
       "$description": "Extra large blur for strong softness on glass morphism effects, heavy overlays, or dramatic depth"
     }
   },
-  "Typography": {
-    "lineHeights": {
+  "typography": {
+    "line-heights": {
       "shorter": {
         "$type": "lineHeights",
         "$value": "110%",
@@ -574,7 +574,7 @@
         "$description": "Tallest line height for maximum readability in dense content or accessibility needs"
       }
     },
-    "fontWeights": {
+    "font-weights": {
       "light": {
         "$type": "fontWeights",
         "$value": "300",
@@ -611,7 +611,7 @@
         "$description": "Black weight for the heaviest typography, used sparingly for maximum emphasis"
       }
     },
-    "letterSpacings": {
+    "letter-spacings": {
       "tighter": {
         "$type": "letterSpacing",
         "$value": "-4%",
@@ -658,21 +658,21 @@
     "fonts": {
       "body": {
         "$type": "fontFamilies",
-        "$value": "{Typography.font-families.sans-serif}",
+        "$value": "{typography.fontFamilies.sansSerif}",
         "$description": "Font family for body text and paragraphs across marketing sites and product interfaces"
       },
       "heading": {
         "$type": "fontFamilies",
-        "$value": "{Typography.font-families.sans-serif}",
+        "$value": "{typography.fontFamilies.sansSerif}",
         "$description": "Font family for headings and titles within the product's user interface"
       },
       "heading-brand": {
         "$type": "fontFamilies",
-        "$value": "{Typography.font-families.sans-serif}",
+        "$value": "{typography.fontFamilies.sansSerif}",
         "$description": "Font family for headings and titles on marketing websites and brand assets"
       }
     },
-    "fontSizes": {
+    "font-sizes": {
       "3xs": {
         "$type": "fontSizes",
         "$value": "0.625rem",
@@ -730,7 +730,7 @@
       }
     }
   },
-  "Duration": {
+  "duration": {
     "fastest": {
       "$type": "number",
       "$value": "50",
@@ -767,7 +767,7 @@
       "$description": "Slowest speed for very deliberate transitions and dramatic effects"
     }
   },
-  "Radii": {
+  "radii": {
     "none": {
       "$type": "borderRadius",
       "$value": "0",

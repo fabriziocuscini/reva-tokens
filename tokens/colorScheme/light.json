@@ -743,9 +743,7 @@
     "white-to-dark": {
       "$type": "color",
       "$value": "{global.white.default}"
-    }
-  },
-  "Misc": {
+    },
     "light-mode": {
       "$type": "boolean",
       "$value": "true",

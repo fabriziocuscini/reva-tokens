@@ -1,6 +1,6 @@
 {
   "colors": {
-    "Gray": {
+    "gray": {
       "1": {
         "$type": "color",
         "$value": "#111111"
@@ -102,7 +102,7 @@
         "$value": "#202020"
       }
     },
-    "Sand": {
+    "sand": {
       "1": {
         "$type": "color",
         "$value": "#111110"
@@ -204,7 +204,7 @@
         "$value": "#ffffff"
       }
     },
-    "Grass": {
+    "grass": {
       "1": {
         "$type": "color",
         "$value": "#0e1511"
@@ -306,7 +306,7 @@
         "$value": "#ffffff"
       }
     },
-    "Gold": {
+    "gold": {
       "1": {
         "$type": "color",
         "$value": "#000000"
@@ -408,7 +408,7 @@
         "$value": "#2a2009"
       }
     },
-    "Tomato": {
+    "tomato": {
       "1": {
         "$type": "color",
         "$value": "#181111"
@@ -510,7 +510,7 @@
         "$value": "#ffffff"
       }
     },
-    "Blue": {
+    "blue": {
       "1": {
         "$type": "color",
         "$value": "#0d1520"
@@ -743,9 +743,7 @@
     "white-to-dark": {
       "$type": "color",
       "$value": "{colors.gray.1}"
-    }
-  },
-  "Misc": {
+    },
     "light-mode": {
       "$type": "boolean",
       "$value": "false",
