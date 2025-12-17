@@ -658,17 +658,17 @@
     "fonts": {
       "body": {
         "$type": "fontFamilies",
-        "$value": "{typography.fontFamilies.sansSerif}",
+        "$value": "{typography.font-families.sans-serif}",
         "$description": "Font family for body text and paragraphs across marketing sites and product interfaces"
       },
       "heading": {
         "$type": "fontFamilies",
-        "$value": "{typography.fontFamilies.sansSerif}",
+        "$value": "{typography.font-families.sans-serif}",
         "$description": "Font family for headings and titles within the product's user interface"
       },
       "heading-brand": {
         "$type": "fontFamilies",
-        "$value": "{typography.fontFamilies.sansSerif}",
+        "$value": "{typography.font-families.sans-serif}",
         "$description": "Font family for headings and titles on marketing websites and brand assets"
       }
     },
