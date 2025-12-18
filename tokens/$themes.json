@@ -2,13 +2,11 @@
   {
     "id": "6aadfffd65d7667080e3cf84a0dd5c94cbea2451",
     "name": "Tokens",
-    "$figmaStyleReferences": {},
+    "group": "Tokens",
     "selectedTokenSets": {
       "tokens": "enabled"
     },
-    "group": "Tokens",
-    "$figmaCollectionId": "VariableCollectionId:26:4597",
-    "$figmaModeId": "26:31",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "colors.default.white.default": "b0252b75ad2f6c5c663faebc7cbb28996677d473",
       "colors.default.white.a1": "f3d7e0564145ca24f1bb5d03ae10c714574fcbe5",
@@ -69,19 +67,19 @@
       "z-index.skipLink": "f7114c3cb98d717c2bb621842ac60ced696a6cfd",
       "z-index.toast": "b13c8ab6a92568e5646da87d4a6a48fe05e6dbc7",
       "z-index.tooltip": "7ec2833831e7f5d9fedd17cf4212a9a58355e192"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:26:4597",
+    "$figmaModeId": "26:31"
   },
   {
     "id": "0b4ad34f98a66b2955ce632a470bb9699d2a8869",
     "name": "Light",
-    "$figmaStyleReferences": {},
+    "group": "Color scheme",
     "selectedTokenSets": {
       "tokens": "source",
       "color-scheme/light": "enabled"
     },
-    "group": "Color scheme",
-    "$figmaCollectionId": "VariableCollectionId:26:4598",
-    "$figmaModeId": "26:32",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "colors.gray.1": "04b568791c28b0afb4e841cc57bba427e594da07",
       "colors.gray.2": "c4b4bc3d189924ade8b1cc30ed21abaa8519e959",
@@ -240,19 +238,19 @@
       "colors.misc.white-to-dark": "25efb7e42a05cb7cbecd8be570c75300610b81f6",
       "misc.light-mode": "4605455c15960ca3eb3558ac74898f154d36758f",
       "misc.dark-mode": "13e2093dfbfcd4c9373dbf5a564384c716e84b35"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:26:4598",
+    "$figmaModeId": "26:32"
   },
   {
     "id": "512fb75f86923d2a4ba4355fd319356ef176f8e1",
     "name": "Dark",
-    "$figmaStyleReferences": {},
+    "group": "Color scheme",
     "selectedTokenSets": {
       "tokens": "source",
       "color-scheme/dark": "enabled"
     },
-    "group": "Color scheme",
-    "$figmaCollectionId": "VariableCollectionId:26:4598",
-    "$figmaModeId": "26:33",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "colors.gray.1": "04b568791c28b0afb4e841cc57bba427e594da07",
       "colors.gray.2": "c4b4bc3d189924ade8b1cc30ed21abaa8519e959",
@@ -411,11 +409,20 @@
       "colors.misc.white-to-dark": "25efb7e42a05cb7cbecd8be570c75300610b81f6",
       "misc.light-mode": "4605455c15960ca3eb3558ac74898f154d36758f",
       "misc.dark-mode": "13e2093dfbfcd4c9373dbf5a564384c716e84b35"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:26:4598",
+    "$figmaModeId": "26:33"
   },
   {
     "id": "eb223c2ebfce6a1ec805449d44331a810be59566",
     "name": "Reva OS",
+    "group": "Themes",
+    "selectedTokenSets": {
+      "tokens": "source",
+      "color-scheme/light": "source",
+      "color-scheme/dark": "source",
+      "themes/Reva": "enabled"
+    },
     "$figmaStyleReferences": {
       "shadows.xs": "S:ea7ee3f03f9178faa50870cf9cb4d65d2a34db25,",
       "shadows.sm": "S:c47145399e6c569c32f069954533dbdb0dfb6d6c,",
@@ -423,15 +430,6 @@
       "shadows.lg": "S:fa21e32457505d1cb63b1d03d5e53c561fdacc74,",
       "shadows.xl": "S:4893a10d8c40f4412862214eddb1b9cfe32c7c57,"
     },
-    "selectedTokenSets": {
-      "tokens": "source",
-      "color-scheme/light": "source",
-      "color-scheme/dark": "source",
-      "themes/Reva": "enabled"
-    },
-    "group": "Themes",
-    "$figmaCollectionId": "VariableCollectionId:26:4599",
-    "$figmaModeId": "26:34",
     "$figmaVariableReferences": {
       "colors.neutral.1": "ce4031995c9d7bf6475810455631902e6d9abbbd",
       "colors.neutral.2": "e995aa56284e4988ea43dacd35e3e4cdbd7000cd",
@@ -577,6 +575,8 @@
       "radii.4xl": "6ac8f826b453a450227918cdda406da95124a74d",
       "radii.full": "0d16dffeaf7323c8f78a9a9ca5dc74d1fd9dc2b6",
       "opacity.disabled": "2daef3144e45d08d9996d1fceac706fe53b93355"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:26:4599",
+    "$figmaModeId": "26:34"
   }
 ]
